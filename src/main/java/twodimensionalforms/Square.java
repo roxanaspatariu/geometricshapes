@@ -6,7 +6,7 @@ import auxiliare.*;
  * Created by Roxana on 4/25/2016.
  */
 public class Square extends Polygon implements Operations {
-    private Side side;
+    private Side side = new Side();
     private Point a;
     private Point b;
     private Point c;
@@ -33,8 +33,8 @@ public class Square extends Polygon implements Operations {
         if (a.getX() != b.getX()) {
             this.a = a;
             this.b = b;
-            this.c = new Point(b.getX(), b.getY() + sideSize);
-            this.d = new Point(a.getX(), a.getY() + sideSize);
+            this.c = new Point(b.getX(), b.getY() - sideSize);
+            this.d = new Point(a.getX(), a.getY() - sideSize);
             side.setSize(sideSize);
         } else {
             throw new IllegalArgumentException("The coordinates are not corect! You can't construct a square!");
