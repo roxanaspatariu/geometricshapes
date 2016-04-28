@@ -1,7 +1,7 @@
 package auxiliare;
 
-import auxiliare.Dimension;
-import auxiliare.Font;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Roxana on 4/25/2016.
@@ -10,6 +10,7 @@ public abstract class Shape extends Dimension {
     private String name;
     private double area;
     private double perimeter;
+
     private Font font = new Font();
 
     public Font getFont() {

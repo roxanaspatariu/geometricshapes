@@ -13,36 +13,34 @@ public class Circle extends Curves implements Operations {
     private Point centru;
 
 
-    public Circle(){
+    public Circle() {
         super.setName(Forms.CIRCLE.name());
-        centru.setX(0);
-        centru.setY(0);
+        this.centru = new Point(0, 0);
         radius = 1;
 
     }
 
-    public Circle(double radius){
+    public Circle(double radius) {
         super.setName(Forms.CIRCLE.name());
-        centru.setX(0);
-        centru.setY(0);
+        this.centru = new Point(0, 0);
         this.radius = radius;
     }
 
-    public Circle(double radius, Point centru){
+    public Circle(double radius, Point centru) {
         super.setName(Forms.CIRCLE.name());
-        centru.setX(centru.getX());
-        centru.setY(centru.getY());
+        this.centru = new Point(centru.getX(), centru.getY());
         this.radius = radius;
     }
 
 
-    public double calculateCircleLength(){
-        lungime = 2*Math.PI*radius;
+    public double calculateCircleLength() {
+        lungime = 2 * Math.PI * radius;
         return lungime;
     }
+
     @Override
     public double calculateArea() {
-        double area = 2*Math.PI*radius*radius;
+        double area = 2 * Math.PI * Math.pow(radius, 2);
         super.setArea(area);
         return area;
     }
@@ -54,12 +52,13 @@ public class Circle extends Curves implements Operations {
 
     @Override
     public void draw() {
-        System.out.println("Desenezi un cerc de culoarea " + super.getFont().getColor() + " si bordura de " + super.getFont().getBorderSize() + "cm" );
+        System.out.println("You're drawing a " + super.getFont().getColor() + " circle with a border of " + super.getFont().getBorderSize() + "cm");
     }
 
     @Override
     public String toString() {
-        String msg ="Cerc cu aria " + String.valueOf(super.getArea()) + "de culoarea " + super.getFont().getColor() + " si bordura de dimens "  + String.valueOf(super.getFont().getBorderSize());
+        String msg = "Circle at (" + (int)centru.getX() + "," + (int)centru.getY() + "), with radius " + (int)radius + " cm "+
+                "\n with area " + String.valueOf(super.getArea()) + ", \n" + super.getFont().getColor() + " with a border of " + String.valueOf(super.getFont().getBorderSize());
         System.out.println(msg);
         return msg;
     }

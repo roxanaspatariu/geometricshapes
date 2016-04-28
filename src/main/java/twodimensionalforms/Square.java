@@ -16,6 +16,10 @@ public class Square extends Polygon implements Operations {
     public Square() {
         super.setName(Forms.SQUARE.name());
         this.side.setSize(1);
+        this.a = new Point(0, 0);
+        this.b = new Point(0, 1);
+        this.c = new Point(1, 1);
+        this.d = new Point(1, 0);
     }
 
     public Square(double sideSize, Point a) {
@@ -29,15 +33,15 @@ public class Square extends Polygon implements Operations {
 
     public Square(Point a, Point b) {
         super.setName(Forms.SQUARE.name());
-        double sideSize = Math.abs(a.getX() - b.getX());
-        if (a.getX() != b.getX()) {
+        double sideSize = Math.sqrt(Math.pow(a.getX() - b.getX(), 2) + Math.pow(a.getY() - b.getY(), 2));
+        if (!a.equals(b)) {
             this.a = a;
             this.b = b;
             this.c = new Point(b.getX(), b.getY() - sideSize);
             this.d = new Point(a.getX(), a.getY() - sideSize);
             side.setSize(sideSize);
         } else {
-            throw new IllegalArgumentException("The coordinates are not corect! You can't construct a square!");
+            throw new IllegalArgumentException("The coordinates are incorrect! You can't construct a square!");
         }
     }
 
@@ -53,7 +57,7 @@ public class Square extends Polygon implements Operations {
             this.d = d;
             side.setSize(Math.abs(a.getX() - b.getX()));
         } else {
-            throw new IllegalArgumentException("The coordinates are not corect! You can't construct a square!");
+            throw new IllegalArgumentException("The coordinates are incorrect! You can't construct a square!");
         }
     }
 

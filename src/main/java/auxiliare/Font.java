@@ -7,16 +7,16 @@ public class Font {
     private String colour;
     private double borderSize;
 
-    public Font(){
+    public Font() {
         colour = "black";
         borderSize = 1;
     }
 
-    public Font(String colour){
+    public Font(String colour) {
         this.colour = colour;
     }
 
-    public  Font(String colour, double borderSize){
+    public Font(String colour, double borderSize) {
         this.colour = colour;
         this.borderSize = borderSize;
     }

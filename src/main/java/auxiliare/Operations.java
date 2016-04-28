@@ -5,6 +5,7 @@ package auxiliare;
  */
 public interface Operations {
     //public double calculateArea();
-    public void setFont(String color, double borderSize);
-    public void draw();
+    void setFont(String color, double borderSize);
+
+    void draw();
 }

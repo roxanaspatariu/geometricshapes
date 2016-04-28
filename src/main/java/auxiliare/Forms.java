@@ -7,9 +7,13 @@ public enum Forms {
     CUBE("Cube"),
     CIRCLE("Circle"),
     SQUARE("Square"),
+    RECTANGLE("Rectangle"),
     TRIANGLE("Triangle"),
     TRAPEZE("Trapeze");
 
     private final String stringValue;
-    private Forms(final String s) { stringValue = s; }
+
+    Forms(final String s) {
+        stringValue = s;
+    }
 }

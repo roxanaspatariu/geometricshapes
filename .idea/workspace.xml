@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="947498b7-4bcf-4361-aa61-e5ba5d159f2e" name="Default" comment="">
+    <list default="true" id="947498b7-4bcf-4361-aa61-e5ba5d159f2e" name="Default" comment="Other changes on constructors + added composite pattern">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/auxiliare/Composite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/auxiliare/Vector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/twodimensionalforms/CircleTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/twodimensionalforms/CompositeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Forms.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Forms.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Point.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Point.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Shape.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Shape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/ShapeFactory$1.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/ShapeFactory$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/ShapeFactory.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/ShapeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/threedimensionalforms/Cube.class" afterPath="$PROJECT_DIR$/target/classes/threedimensionalforms/Cube.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/threedimensionalforms/CurvedSurfaces.class" afterPath="$PROJECT_DIR$/target/classes/threedimensionalforms/CurvedSurfaces.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/threedimensionalforms/Polyhedron.class" afterPath="$PROJECT_DIR$/target/classes/threedimensionalforms/Polyhedron.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Circle.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Circle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Rectangle.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Rectangle.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Square.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Square.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Triangle.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Triangle.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/auxiliare/Font.java" afterPath="$PROJECT_DIR$/src/main/java/auxiliare/Font.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/auxiliare/Forms.java" afterPath="$PROJECT_DIR$/src/main/java/auxiliare/Forms.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/auxiliare/Operations.java" afterPath="$PROJECT_DIR$/src/main/java/auxiliare/Operations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/auxiliare/Point.java" afterPath="$PROJECT_DIR$/src/main/java/auxiliare/Point.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/auxiliare/Shape.java" afterPath="$PROJECT_DIR$/src/main/java/auxiliare/Shape.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/auxiliare/ShapeFactory.java" afterPath="$PROJECT_DIR$/src/main/java/auxiliare/ShapeFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java" afterPath="$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/threedimensionalforms/CurvedSurfaces.java" afterPath="$PROJECT_DIR$/src/main/java/threedimensionalforms/CurvedSurfaces.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/threedimensionalforms/Polyhedron.java" afterPath="$PROJECT_DIR$/src/main/java/threedimensionalforms/Polyhedron.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java" afterPath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Polygon.java" afterPath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Polygon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Rectangle.java" afterPath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Rectangle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java" afterPath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Trapeze.java" afterPath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Trapeze.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Triangle.java" afterPath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Triangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeFactoryTest.java" />
     </list>
     <ignored path="geometry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,25 +57,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Point.java">
+      <file leaf-file-name="Square.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-              <folding>
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="207">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Square.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java">
+      <file leaf-file-name="Polygon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Polygon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-              <folding />
+            <state relative-caret-position="187">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding>
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,66 +83,68 @@
       <file leaf-file-name="Cube.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="22" column="107" selection-start-line="22" selection-start-column="107" selection-end-line="22" selection-end-column="107" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShapeFactoryTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ShapeFactoryTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Rectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1061#1062#0" expanded="true" />
-                <element signature="e#1122#1123#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrapezeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/TrapezeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SquareTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/SquareTest.java">
+      <file leaf-file-name="Polyhedron.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/Polyhedron.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding>
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurvedSurfaces.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/CurvedSurfaces.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding>
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Composite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Composite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,26 +152,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrameworkMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <file leaf-file-name="ShapeFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/ShapeFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="486">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trapeze.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Trapeze.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Triangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -149,8 +179,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -185,32 +215,36 @@
         <option value="$PROJECT_DIR$/src/main/java/Triangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/ShapeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/TriunghiNeregulat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java" />
         <option value="$PROJECT_DIR$/src/main/java/auxiliare/Dimension.java" />
-        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Font.java" />
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Isoscel.java" />
         <option value="$PROJECT_DIR$/src/main/java/auxiliare/Latura.java" />
-        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Operations.java" />
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Pentagon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Shape.java" />
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/TriunghiNeregulat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threedimensionalforms/CurvedSurfaces.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threedimensionalforms/Polyhedron.java" />
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Trapez.java" />
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Curves.java" />
-        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Forms.java" />
-        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Polygon.java" />
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Validation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/auxiliare/ShapeFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/TrapezeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Point.java" />
-        <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Triangle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Trapeze.java" />
         <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/SquareTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threedimensionalforms/Polyhedron.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threedimensionalforms/CurvedSurfaces.java" />
+        <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Polygon.java" />
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java" />
+        <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Font.java" />
+        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Point.java" />
+        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/CircleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Shape.java" />
+        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/CompositeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Vector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Forms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Operations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Trapeze.java" />
+        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Composite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java" />
+        <option value="$PROJECT_DIR$/src/main/java/auxiliare/ShapeFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -257,8 +291,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -408,7 +442,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25862068" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -417,95 +451,7 @@
       <recent name="twodimensionalforms" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SquareTest">
-    <configuration default="false" name="ShapeFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="auxiliare.ShapeFactory" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Documents" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ShapeFactoryTest.verifyShapeType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Documents" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="twodimensionalforms" />
-      <option name="MAIN_CLASS_NAME" value="twodimensionalforms.ShapeFactoryTest" />
-      <option name="METHOD_NAME" value="verifyShapeType" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TrapezeTest.testArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="twodimensionalforms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Documents" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="twodimensionalforms" />
-      <option name="MAIN_CLASS_NAME" value="twodimensionalforms.TrapezeTest" />
-      <option name="METHOD_NAME" value="testArea" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TrapezeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="twodimensionalforms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Documents" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="twodimensionalforms" />
-      <option name="MAIN_CLASS_NAME" value="twodimensionalforms.TrapezeTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ShapeFactoryTest.testShapeFactory">
     <configuration default="false" name="SquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -520,6 +466,110 @@
       <option name="MAIN_CLASS_NAME" value="twodimensionalforms.SquareTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CircleTest.testArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="twodimensionalforms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Documents" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="twodimensionalforms" />
+      <option name="MAIN_CLASS_NAME" value="twodimensionalforms.CircleTest" />
+      <option name="METHOD_NAME" value="testArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CompositeTest.testComposite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="twodimensionalforms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Documents" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="twodimensionalforms" />
+      <option name="MAIN_CLASS_NAME" value="twodimensionalforms.CompositeTest" />
+      <option name="METHOD_NAME" value="testComposite" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CompositeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="twodimensionalforms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Documents" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="twodimensionalforms" />
+      <option name="MAIN_CLASS_NAME" value="twodimensionalforms.CompositeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ShapeFactoryTest.testShapeFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="twodimensionalforms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Documents" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="twodimensionalforms" />
+      <option name="MAIN_CLASS_NAME" value="twodimensionalforms.ShapeFactoryTest" />
+      <option name="METHOD_NAME" value="testShapeFactory" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -767,19 +817,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ShapeFactory" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ShapeFactoryTest.verifyShapeType" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TrapezeTest.testArea" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TrapezeTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SquareTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SquareTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CircleTest.testArea" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CompositeTest.testComposite" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CompositeTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ShapeFactoryTest.testShapeFactory" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SquareTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TrapezeTest.testArea" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TrapezeTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ShapeFactory" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ShapeFactoryTest.verifyShapeType" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ShapeFactoryTest.testShapeFactory" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CompositeTest.testComposite" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CompositeTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CircleTest.testArea" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SquareTest" />
       </list>
     </recent_temporary>
   </component>
@@ -800,29 +850,29 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SquareTest - 2016.04.27 at 16h 14m 20s.xml">
-      <configuration name="SquareTest" configurationId="JUnit" />
+    <history-entry file="CircleTest_testArea - 2016.04.28 at 09h 43m 17s.xml">
+      <configuration name="CircleTest.testArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SquareTest - 2016.04.27 at 16h 14m 27s.xml">
-      <configuration name="SquareTest" configurationId="JUnit" />
+    <history-entry file="CompositeTest - 2016.04.28 at 10h 12m 14s.xml">
+      <configuration name="CompositeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrapezeTest_testArea - 2016.04.27 at 13h 24m 21s.xml">
-      <configuration name="TrapezeTest.testArea" configurationId="JUnit" />
+    <history-entry file="CompositeTest_testComposite - 2016.04.28 at 10h 10m 43s.xml">
+      <configuration name="CompositeTest.testComposite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrapezeTest_testArea - 2016.04.27 at 13h 24m 39s.xml">
-      <configuration name="TrapezeTest.testArea" configurationId="JUnit" />
+    <history-entry file="CompositeTest_testComposite - 2016.04.28 at 10h 15m 27s.xml">
+      <configuration name="CompositeTest.testComposite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrapezeTest_testArea - 2016.04.27 at 13h 29m 41s.xml">
-      <configuration name="TrapezeTest.testArea" configurationId="JUnit" />
+    <history-entry file="CompositeTest_testComposite - 2016.04.28 at 10h 19m 11s.xml">
+      <configuration name="CompositeTest.testComposite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrapezeTest_testArea - 2016.04.27 at 13h 46m 03s.xml">
-      <configuration name="TrapezeTest.testArea" configurationId="JUnit" />
+    <history-entry file="ShapeFactoryTest_testShapeFactory - 2016.04.28 at 10h 38m 32s.xml">
+      <configuration name="ShapeFactoryTest.testShapeFactory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrapezeTest_testArea - 2016.04.27 at 14h 06m 11s.xml">
-      <configuration name="TrapezeTest.testArea" configurationId="JUnit" />
+    <history-entry file="ShapeFactoryTest_testShapeFactory - 2016.04.28 at 10h 39m 02s.xml">
+      <configuration name="ShapeFactoryTest.testShapeFactory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrapezeTest_testArea - 2016.04.27 at 14h 07m 27s.xml">
-      <configuration name="TrapezeTest.testArea" configurationId="JUnit" />
+    <history-entry file="ShapeFactoryTest_testShapeFactory - 2016.04.28 at 10h 39m 24s.xml">
+      <configuration name="ShapeFactoryTest.testShapeFactory" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TrapezeTest_testArea - 2016.04.27 at 14h 08m 52s.xml">
       <configuration name="TrapezeTest.testArea" configurationId="JUnit" />
@@ -837,22 +887,22 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.49784714" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920536" sideWeight="0.49347827" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33436534" sideWeight="0.50652176" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33436534" sideWeight="0.51521736" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33436534" sideWeight="0.49347827" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33436534" sideWeight="0.4847826" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25163043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25108695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29102167" sideWeight="0.4978261" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29102167" sideWeight="0.49347827" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -872,23 +922,28 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Other changes on constructors" />
+    <MESSAGE value="Other changes on constructors + added composite pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Other changes on constructors + added composite pattern" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java</url>
-          <line>29</line>
-          <properties class="twodimensionalforms.Square" method="&lt;init&gt;" />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/twodimensionalforms/SquareTest.java</url>
           <line>17</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/twodimensionalforms/CompositeTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -897,49 +952,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -949,9 +967,9 @@
         <state relative-caret-position="136">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1307#1308#0" expanded="false" />
+            <element signature="e#1369#1370#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -979,9 +997,7 @@
         <state relative-caret-position="510">
           <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1021,7 +1037,7 @@
         <state relative-caret-position="374">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1031,9 +1047,7 @@
         <state relative-caret-position="170">
           <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1053,7 +1067,7 @@
         <state relative-caret-position="272">
           <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1100,100 +1114,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Dimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Font.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Operations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ShapeDimension.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/TriunghiNeregulat.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/CurvedSurfaces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/Polyhedron.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Forms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#591#592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Validation.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/ShapeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Polygon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Isoscel.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Trapeze.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="62" column="104" selection-start-line="62" selection-start-column="104" selection-end-line="62" selection-end-column="104" />
+        <state relative-caret-position="187">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Side.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Pentagon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1201,43 +1137,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Pentagon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -1247,46 +1151,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Dimension.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Side.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="238">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1300,11 +1186,190 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/SquareTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/CompositeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/CircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Forms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Operations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Trapeze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Polygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/Polyhedron.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/CurvedSurfaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Composite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="107" selection-start-line="22" selection-start-column="107" selection-end-line="22" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/ShapeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>

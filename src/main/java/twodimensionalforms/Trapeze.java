@@ -5,12 +5,12 @@ import auxiliare.*;
 /**
  * Created by Roxana on 4/25/2016.
  */
-public class Trapeze extends Polygon implements Operations{
+public class Trapeze extends Polygon implements Operations {
 
     private Side smallBase = new Side();
     private Side greatBase = new Side();
     private Side height = new Side();
-    Point a, b, c, d;
+    private Point a, b, c, d;
 
 
     public Trapeze(Point a, Point b, Point c, Point d) {
@@ -32,7 +32,7 @@ public class Trapeze extends Polygon implements Operations{
     public Trapeze() {
         super.setName(Forms.TRAPEZE.name());
         a = new Point(0, 1);
-        b = new Point(0,0);
+        b = new Point(0, 0);
         c = new Point(1, 1);
         d = new Point(2, 0);
 
@@ -41,7 +41,7 @@ public class Trapeze extends Polygon implements Operations{
     public Trapeze(double smallBase, double greatBase, double height) {
         super.setName(Forms.TRAPEZE.name());
         a = new Point(0, height);
-        b = new Point(0,0);
+        b = new Point(0, 0);
         c = new Point(smallBase, height);
         d = new Point(greatBase, 0);
     }
