@@ -1,11 +1,13 @@
 package twodimensionalforms;
 
+import auxiliare.Font;
+import auxiliare.Operations;
 import auxiliare.Point;
 
 /**
  * Created by Roxana on 4/25/2016.
  */
-public class Triangle extends Polygon {
+public class Triangle extends Polygon implements Operations {
 
     private Point a;
     private Point b;
@@ -22,7 +24,8 @@ public class Triangle extends Polygon {
             this.a = a;
             this.b = b;
             this.c = c;
-            // determinantul matricei formate din prima col coord x ale lui a,b,c, a doua col coord y ale lui a, b, c si a treia col unitate
+            // The determinant of the matrix is build of the following 3 columns : the first having the x values of the 3 points, the second the y values of the 3 points
+            // and the last column is o unit column
             det = a.getX() * b.getY() + a.getY() * c.getX() + b.getX() * c.getY() - b.getY() * c.getX() - a.getX() * c.getY() - a.getY() * b.getX();
             height = Math.abs(det) / Math.sqrt((b.getX() - a.getX()) * (b.getX() - a.getX()) + (b.getY() - a.getY()) * (b.getY() - a.getY()));
         }
@@ -38,4 +41,20 @@ public class Triangle extends Polygon {
     public double calculateArea() {
         return Math.abs(det) * 1 / 2;
     }
+
+    @Override
+    public void setFont(String color, double borderSize) {
+        this.setFont(new Font(color, borderSize));
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("You're drawing a " + this.getFont().getColor() + " triangle with a border of " + String.valueOf((int) this.getFont().getBorderSize()) + " cm");
+    }
+
+    @Override
+    public String toString() {
+        return "Triangle with coordonates at a(" + a.getX() + "," + a.getY() + "), b(" + b.getX() + "," + b.getY() + "), c(" + c.getX() + "," + c.getY() + ").";
+    }
+
 }

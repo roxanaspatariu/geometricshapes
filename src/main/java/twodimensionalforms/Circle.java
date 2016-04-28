@@ -14,20 +14,20 @@ public class Circle extends Curves implements Operations {
 
 
     public Circle() {
-        super.setName(Forms.CIRCLE.name());
+        this.setName(Forms.CIRCLE.name());
         this.centru = new Point(0, 0);
         radius = 1;
 
     }
 
     public Circle(double radius) {
-        super.setName(Forms.CIRCLE.name());
+        this.setName(Forms.CIRCLE.name());
         this.centru = new Point(0, 0);
         this.radius = radius;
     }
 
     public Circle(double radius, Point centru) {
-        super.setName(Forms.CIRCLE.name());
+        this.setName(Forms.CIRCLE.name());
         this.centru = new Point(centru.getX(), centru.getY());
         this.radius = radius;
     }
@@ -47,19 +47,16 @@ public class Circle extends Curves implements Operations {
 
     @Override
     public void setFont(String colour, double borderSize) {
-        super.setFont(new Font(colour, borderSize));
+        this.setFont(new Font(colour, borderSize));
     }
 
     @Override
     public void draw() {
-        System.out.println("You're drawing a " + super.getFont().getColor() + " circle with a border of " + super.getFont().getBorderSize() + "cm");
+        System.out.println("You're drawing a " + this.getFont().getColor() + " circle with a border of " + String.valueOf((int)this.getFont().getBorderSize()) + "cm");
     }
 
     @Override
     public String toString() {
-        String msg = "Circle at (" + (int)centru.getX() + "," + (int)centru.getY() + "), with radius " + (int)radius + " cm "+
-                "\n with area " + String.valueOf(super.getArea()) + ", \n" + super.getFont().getColor() + " with a border of " + String.valueOf(super.getFont().getBorderSize());
-        System.out.println(msg);
-        return msg;
+        return "Circle at (" + (int)centru.getX() + "," + (int)centru.getY() + "), with radius " + (int)radius + " cm";
     }
 }

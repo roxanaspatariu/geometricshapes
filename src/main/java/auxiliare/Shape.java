@@ -37,14 +37,36 @@ public abstract class Shape extends Dimension {
         this.area = area;
     }
 
-    public double getPerimeter() {
-        return perimeter;
+    private List<Shape> shapes;
+
+    public Shape(){
+        shapes = new ArrayList<Shape>();
     }
 
-    public void setPerimeter(double perimeter) {
-        this.perimeter = perimeter;
+    public Shape(Shape shape) {
+        shapes = new ArrayList<Shape>();
     }
 
-    public abstract double calculateArea();
+    public void addSubShape(Shape shape) {
+        shapes.add(shape);
+    }
+
+    public void removeSubShape(Shape shape) {
+        shapes.add(shape);
+    }
+
+    public List<Shape> getSubShapes() {
+        return shapes;
+    }
+
+    @Override
+    public String toString() {
+        String msg = "";
+        for (Shape shape : shapes) {
+            msg = msg + ", " + shape.getName();
+        }
+        msg = ".";
+        return msg;
+    }
 
 }

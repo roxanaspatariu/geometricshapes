@@ -7,22 +7,25 @@ import auxiliare.*;
  */
 public class Trapeze extends Polygon implements Operations {
 
-    private Side smallBase = new Side();
-    private Side greatBase = new Side();
-    private Side height = new Side();
+    private Side smallBase;
+    private Side greatBase;
+    private Side height;
     private Point a, b, c, d;
 
 
     public Trapeze(Point a, Point b, Point c, Point d) {
+        this.setName(Forms.TRAPEZE.name());
         this.a = a;
         this.b = b;
         this.c = c;
         this.d = d;
 
-
         if (a.getX() < b.getX() && a.getY() == b.getY() && c.getX() > d.getX() && c.getY() == d.getY()) {
-            smallBase.setSize(b.getX() - a.getX());
-            greatBase.setSize(c.getX() - d.getX());
+            smallBase = new Side(a, b);
+            greatBase = new Side(c, d);
+            height = new Side();
+            smallBase.calculateSize();
+            greatBase.calculateSize();
             height.setSize(a.getY() - d.getY());
         } else {
             throw new IllegalArgumentException("You should put the points clockwise starting from point a!");
@@ -30,11 +33,15 @@ public class Trapeze extends Polygon implements Operations {
     }
 
     public Trapeze() {
-        super.setName(Forms.TRAPEZE.name());
-        a = new Point(0, 1);
-        b = new Point(0, 0);
-        c = new Point(1, 1);
-        d = new Point(2, 0);
+        this.setName(Forms.TRAPEZE.name());
+        a = new Point(1, 1);
+        b = new Point(2, 1);
+        c = new Point(0, 3);
+        d = new Point(0, 0);
+        smallBase = new Side(a, b);
+        greatBase = new Side(c, d);
+        smallBase.calculateSize();
+        greatBase.calculateSize();
 
     }
 

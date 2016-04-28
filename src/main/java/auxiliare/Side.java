@@ -4,7 +4,21 @@ package auxiliare;
  * Created by Roxana on 4/25/2016.
  */
 public class Side {
-    double size;
+    private Point a;
+    private Point b;
+    private double size;
+
+    public Side(){
+
+    }
+    public Side(Point a, Point b) {
+        this.a = a;
+        this.b = b;
+    }
+
+    public void calculateSize() {
+        this.size = Math.sqrt(Math.pow(a.getX() - b.getX(), 2) + Math.pow(a.getY() - b.getY(), 2));
+    }
 
     public double getSize() {
         return size;

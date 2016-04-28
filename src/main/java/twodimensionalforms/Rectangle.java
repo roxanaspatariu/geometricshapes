@@ -1,13 +1,11 @@
 package twodimensionalforms;
 
-import auxiliare.Forms;
-import auxiliare.Point;
-import auxiliare.Side;
+import auxiliare.*;
 
 /**
  * Created by v3790147 on 4/27/2016.
  */
-public class Rectangle extends Polygon {
+public class Rectangle extends Polygon implements Operations {
 
     private Side smallSide;
     private Side greatSide;
@@ -20,8 +18,12 @@ public class Rectangle extends Polygon {
         this.setName(Forms.RECTANGLE.name());
         this.a = new Point(0, 0);
         this.b = new Point(0, 1);
-        this.c = new Point(3, 1);
-        this.c = new Point(3, 0);
+        this.c = new Point(1, 3);
+        this.d = new Point(0, 3);
+        smallSide = new Side(a, b);
+        greatSide = new Side(b, c);
+        smallSide.calculateSize();
+        greatSide.calculateSize();
     }
 
     public Rectangle(Point a, Point b, Point c) {
@@ -48,9 +50,20 @@ public class Rectangle extends Polygon {
 
     @Override
     public String toString() {
-        String msg = "Rectangle with coordinates (" + (int)a.getX() + "," + (int)a.getY() + "), (" + (int)b.getX() + "," + (int)b.getY() + "), (" + (int)c.getX() + (int)c.getY() + ") " +
-                " \n with area " + String.valueOf(super.getArea()) + ", \n" + super.getFont().getColor() + " with a border of " + String.valueOf(super.getFont().getBorderSize());
+        String msg = "Rectangle with coordinates a(" + (int) a.getX() + "," + (int) a.getY() + "), b(" + (int) b.getX() + "," + (int) b.getY() + "), c(" + (int) c.getX() + (int) c.getY() + "), d(" +
+                +(int)d.getX() + "," + (int)d.getY() + ").";
         System.out.println(msg);
         return msg;
+    }
+
+    @Override
+    public void setFont(String color, double borderSize) {
+        this.setFont(new Font(color, borderSize));
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("You're drawing a " + this.getFont().getColor() + "rectangle with a border of " + String.valueOf((int) this.getFont().getBorderSize()) + "cm");
+
     }
 }
