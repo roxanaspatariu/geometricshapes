@@ -1,5 +1,6 @@
 package twodimensionalforms;
 
+import auxiliare.Font;
 import auxiliare.Point;
 import org.junit.Assert;
 import org.junit.Before;
@@ -19,7 +20,21 @@ public class TriangleTest {
         Point c = new Point(2, 0);
         triangle = new Triangle(a, b, c);
     }
+    @Test
+    public void testDraw(){
+        triangle.draw();
+    }
 
+    @Test
+    public void testSetFont(){
+        triangle.setFont(new Font("red", 4));
+        triangle.draw();
+    }
+
+    @Test
+    public void testToString(){
+        System.out.println(triangle.toString());
+    }
     @Test
     public void testArea() {
         Assert.assertTrue(triangle.calculateArea() == 1);

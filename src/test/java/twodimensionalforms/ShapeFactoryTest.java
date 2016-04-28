@@ -12,7 +12,7 @@ import org.junit.Test;
 public class ShapeFactoryTest {
 
     @Test
-    public void testShapeFactory(){
+    public void testGetShape(){
         ShapeFactory shapeFactory = new ShapeFactory();
         Shape shape = shapeFactory.getShape(Forms.CIRCLE.name());
         Assert.assertEquals("CIRCLE", shape.getName());

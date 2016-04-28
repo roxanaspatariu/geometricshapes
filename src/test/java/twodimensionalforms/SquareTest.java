@@ -1,5 +1,6 @@
 package twodimensionalforms;
 
+import auxiliare.Font;
 import auxiliare.Point;
 import org.junit.Assert;
 import org.junit.Before;
@@ -19,6 +20,21 @@ public class SquareTest {
         square = new Square(a, b);
     }
 
+    @Test
+    public void testDraw(){
+        square.draw();
+    }
+
+    @Test
+    public void testSetFont(){
+        square.setFont(new Font("red", 4));
+        square.draw();
+    }
+
+    @Test
+    public void testToString(){
+        System.out.println(square.toString());
+    }
     @Test
     public void testArea() {
         square.calculateArea();

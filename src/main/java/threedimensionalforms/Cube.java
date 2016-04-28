@@ -1,6 +1,7 @@
 package threedimensionalforms;
 
 import auxiliare.Font;
+import auxiliare.Forms;
 import auxiliare.Operations;
 import auxiliare.Vector;
 
@@ -22,6 +23,7 @@ public class Cube extends Polyhedron implements Operations {
 
 
     public Cube() {
+        this.setName(Forms.CUBE.name());
         this.a = new Vector(0, 0, 0);
         this.b = new Vector(1, 0, 0);
         this.c = new Vector(1, 0, 1);
@@ -33,6 +35,7 @@ public class Cube extends Polyhedron implements Operations {
     }
 
     public Cube(Vector a, Vector b, Vector c) {
+        this.setName(Forms.CUBE.name());
         sideLength = Math.sqrt(Math.pow(a.getX() - b.getX(), 2) + Math.pow(a.getY() - b.getY(), 2));
         this.a = a;
         this.b = b;

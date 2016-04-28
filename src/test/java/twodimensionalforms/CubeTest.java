@@ -1,5 +1,6 @@
 package twodimensionalforms;
 
+import auxiliare.Font;
 import auxiliare.Vector;
 import org.junit.Assert;
 import org.junit.Before;
@@ -21,6 +22,21 @@ public class CubeTest {
         cube = new Cube(a, b, c);
     }
 
+    @Test
+    public void testDraw(){
+        cube.draw();
+    }
+
+    @Test
+    public void testSetFont(){
+        cube.setFont(new Font("red", 4));
+        cube.draw();
+    }
+    
+    @Test
+    public void testToString(){
+        System.out.println(cube.toString());
+    }
     @Test
     public void testArea() {
         Assert.assertTrue(cube.calculateArea() == 1);

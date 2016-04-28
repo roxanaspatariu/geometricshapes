@@ -39,7 +39,7 @@ public abstract class Shape extends Dimension {
 
     private List<Shape> shapes;
 
-    public Shape(){
+    public Shape() {
         shapes = new ArrayList<Shape>();
     }
 
@@ -52,20 +52,19 @@ public abstract class Shape extends Dimension {
     }
 
     public void removeSubShape(Shape shape) {
-        shapes.add(shape);
+        shapes.remove(shape);
     }
 
     public List<Shape> getSubShapes() {
         return shapes;
     }
 
-    @Override
-    public String toString() {
+
+    public String showShapes() {
         String msg = "";
-        for (Shape shape : shapes) {
-            msg = msg + ", " + shape.getName();
+        for (Shape shape : this.getSubShapes()) {
+            msg = msg + shape.getName() + "\n";
         }
-        msg = ".";
         return msg;
     }
 

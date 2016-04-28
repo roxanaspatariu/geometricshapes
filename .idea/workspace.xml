@@ -1,37 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="947498b7-4bcf-4361-aa61-e5ba5d159f2e" name="Default" comment="Modified composite pattern">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/twodimensionalforms/CubeTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/auxiliare/Line.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Operations.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Operations.class" />
+    <list default="true" id="947498b7-4bcf-4361-aa61-e5ba5d159f2e" name="Default" comment="Added more test methods">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/auxiliare/Composite.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Shape.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Shape.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Side.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Side.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/threedimensionalforms/Cube.class" afterPath="$PROJECT_DIR$/target/classes/threedimensionalforms/Cube.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/threedimensionalforms/Polyhedron.class" afterPath="$PROJECT_DIR$/target/classes/threedimensionalforms/Polyhedron.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Circle.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Circle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Curves.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Curves.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Polygon.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Polygon.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Rectangle.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Rectangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Square.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Square.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Trapeze.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Trapeze.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Triangle.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Triangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/SquareTest.class" afterPath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/SquareTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/TrapezeTest.class" afterPath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/TrapezeTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/auxiliare/Operations.java" afterPath="$PROJECT_DIR$/src/main/java/auxiliare/Operations.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/auxiliare/Shape.java" afterPath="$PROJECT_DIR$/src/main/java/auxiliare/Shape.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/auxiliare/Side.java" afterPath="$PROJECT_DIR$/src/main/java/auxiliare/Side.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java" afterPath="$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/threedimensionalforms/Polyhedron.java" afterPath="$PROJECT_DIR$/src/main/java/threedimensionalforms/Polyhedron.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java" afterPath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Curves.java" afterPath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Curves.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Polygon.java" afterPath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Polygon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Rectangle.java" afterPath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Rectangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java" afterPath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Trapeze.java" afterPath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Trapeze.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Triangle.java" afterPath="$PROJECT_DIR$/src/main/java/twodimensionalforms/Triangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/twodimensionalforms/CircleTest.java" afterPath="$PROJECT_DIR$/src/test/java/twodimensionalforms/CircleTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/twodimensionalforms/CompositeTest.java" afterPath="$PROJECT_DIR$/src/test/java/twodimensionalforms/CompositeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/twodimensionalforms/CubeTest.java" afterPath="$PROJECT_DIR$/src/test/java/twodimensionalforms/CubeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/twodimensionalforms/RectangleTest.java" afterPath="$PROJECT_DIR$/src/test/java/twodimensionalforms/RectangleTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeFactoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/twodimensionalforms/SquareTest.java" afterPath="$PROJECT_DIR$/src/test/java/twodimensionalforms/SquareTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/twodimensionalforms/TrapezeTest.java" afterPath="$PROJECT_DIR$/src/test/java/twodimensionalforms/TrapezeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/twodimensionalforms/TriangleTest.java" afterPath="$PROJECT_DIR$/src/test/java/twodimensionalforms/TriangleTest.java" />
     </list>
     <ignored path="geometry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,6 +31,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/geometry$twodimensionalforms_in_Documents.coverage" NAME="twodimensionalforms in Documents Coverage Results" MODIFIED="1461853975038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>twodimensionalforms.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/geometry$CircleTest.coverage" NAME="CircleTest Coverage Results" MODIFIED="1461853948426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>twodimensionalforms.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -54,80 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Square.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java">
+      <file leaf-file-name="Cube.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-              <folding>
-                <element signature="e#2187#2188#0" expanded="true" />
-                <element signature="e#2244#2245#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Rectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Polygon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Polygon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-              <folding>
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Polyhedron.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/Polyhedron.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-              <folding>
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Side.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Side.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Operations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Operations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompositeTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/CompositeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="149">
+              <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,26 +60,95 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Curves.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Curves.java">
+      <file leaf-file-name="ShapeFactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShapeFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/ShapeFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CircleTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/CircleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="24" column="16" selection-start-line="22" selection-start-column="1" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrapezeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/TrapezeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+              <folding>
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TriangleTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/TriangleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquareTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/SquareTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,12 +157,33 @@
       <file leaf-file-name="CubeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/CubeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="345">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RectangleTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/RectangleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+              <folding>
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -228,12 +243,6 @@
         <option value="$PROJECT_DIR$/src/main/java/auxiliare/Composite.java" />
         <option value="$PROJECT_DIR$/src/main/java/auxiliare/ShapeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Line.java" />
-        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/SquareTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/TriangleTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/CircleTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/TrapezeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/RectangleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Trapeze.java" />
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Triangle.java" />
@@ -241,14 +250,20 @@
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Curves.java" />
         <option value="$PROJECT_DIR$/src/main/java/threedimensionalforms/Polyhedron.java" />
         <option value="$PROJECT_DIR$/src/main/java/auxiliare/Line.java" />
-        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Shape.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java" />
-        <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java" />
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/auxiliare/Side.java" />
         <option value="$PROJECT_DIR$/src/main/java/auxiliare/Operations.java" />
-        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/CubeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java" />
+        <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java" />
         <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/CompositeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Shape.java" />
+        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/CircleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/CubeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/RectangleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/SquareTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/TrapezeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/TriangleTest.java" />
       </list>
     </option>
   </component>
@@ -455,8 +470,8 @@
       <recent name="twodimensionalforms" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CompositeTest.testComposite">
-    <configuration default="false" name="CircleTest.testArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CubeTest.testToString">
+    <configuration default="false" name="CircleTest.testDraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="twodimensionalforms.*" />
@@ -468,7 +483,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="twodimensionalforms" />
       <option name="MAIN_CLASS_NAME" value="twodimensionalforms.CircleTest" />
-      <option name="METHOD_NAME" value="testArea" />
+      <option name="METHOD_NAME" value="testDraw" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -482,7 +497,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TrapezeTest.testArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CircleTest.testSetFont" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="twodimensionalforms.*" />
@@ -493,8 +508,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="twodimensionalforms" />
-      <option name="MAIN_CLASS_NAME" value="twodimensionalforms.TrapezeTest" />
-      <option name="METHOD_NAME" value="testArea" />
+      <option name="MAIN_CLASS_NAME" value="twodimensionalforms.CircleTest" />
+      <option name="METHOD_NAME" value="testSetFont" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -508,7 +523,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TriangleTest.testArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CircleTest.testCalculateCircleLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="twodimensionalforms.*" />
@@ -519,8 +534,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="twodimensionalforms" />
-      <option name="MAIN_CLASS_NAME" value="twodimensionalforms.TriangleTest" />
-      <option name="METHOD_NAME" value="testArea" />
+      <option name="MAIN_CLASS_NAME" value="twodimensionalforms.CircleTest" />
+      <option name="METHOD_NAME" value="testCalculateCircleLength" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -534,7 +549,33 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CubeTest.testArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CircleTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="twodimensionalforms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Documents" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="twodimensionalforms" />
+      <option name="MAIN_CLASS_NAME" value="twodimensionalforms.CircleTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CubeTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="twodimensionalforms.*" />
@@ -546,33 +587,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="twodimensionalforms" />
       <option name="MAIN_CLASS_NAME" value="twodimensionalforms.CubeTest" />
-      <option name="METHOD_NAME" value="testArea" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CompositeTest.testComposite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="twodimensionalforms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Documents" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="twodimensionalforms" />
-      <option name="MAIN_CLASS_NAME" value="twodimensionalforms.CompositeTest" />
-      <option name="METHOD_NAME" value="testComposite" />
+      <option name="METHOD_NAME" value="testToString" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -821,19 +836,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CircleTest.testArea" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TrapezeTest.testArea" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TriangleTest.testArea" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CubeTest.testArea" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CompositeTest.testComposite" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CircleTest.testDraw" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CircleTest.testSetFont" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CircleTest.testCalculateCircleLength" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CircleTest.testToString" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CubeTest.testToString" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CompositeTest.testComposite" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CubeTest.testArea" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TriangleTest.testArea" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TrapezeTest.testArea" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CircleTest.testArea" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CubeTest.testToString" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CircleTest.testToString" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CircleTest.testCalculateCircleLength" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CircleTest.testSetFont" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CircleTest.testDraw" />
       </list>
     </recent_temporary>
   </component>
@@ -865,39 +880,46 @@
       <option name="project" value="LOCAL" />
       <updated>1461843845131</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Modified composite pattern">
+      <created>1461851218288</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1461851218288</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CompositeTest_testComposite - 2016.04.28 at 15h 23m 14s.xml">
-      <configuration name="CompositeTest.testComposite" configurationId="JUnit" />
+    <history-entry file="CircleTest_testCalculateCircleLength - 2016.04.28 at 16h 38m 48s.xml">
+      <configuration name="CircleTest.testCalculateCircleLength" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompositeTest_testComposite - 2016.04.28 at 15h 24m 41s.xml">
-      <configuration name="CompositeTest.testComposite" configurationId="JUnit" />
+    <history-entry file="CircleTest_testCalculateCircleLength - 2016.04.28 at 16h 39m 05s.xml">
+      <configuration name="CircleTest.testCalculateCircleLength" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompositeTest_testComposite - 2016.04.28 at 15h 27m 06s.xml">
-      <configuration name="CompositeTest.testComposite" configurationId="JUnit" />
+    <history-entry file="CircleTest_testCalculateCircleLength - 2016.04.28 at 16h 39m 28s.xml">
+      <configuration name="CircleTest.testCalculateCircleLength" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompositeTest_testComposite - 2016.04.28 at 15h 37m 33s.xml">
-      <configuration name="CompositeTest.testComposite" configurationId="JUnit" />
+    <history-entry file="CircleTest_testCalculateCircleLength - 2016.04.28 at 16h 39m 59s.xml">
+      <configuration name="CircleTest.testCalculateCircleLength" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompositeTest_testComposite - 2016.04.28 at 15h 37m 45s.xml">
-      <configuration name="CompositeTest.testComposite" configurationId="JUnit" />
+    <history-entry file="CircleTest_testCalculateCircleLength - 2016.04.28 at 16h 40m 17s.xml">
+      <configuration name="CircleTest.testCalculateCircleLength" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompositeTest_testComposite - 2016.04.28 at 15h 38m 27s.xml">
-      <configuration name="CompositeTest.testComposite" configurationId="JUnit" />
+    <history-entry file="CircleTest_testCalculateCircleLength - 2016.04.28 at 16h 40m 32s.xml">
+      <configuration name="CircleTest.testCalculateCircleLength" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompositeTest_testComposite - 2016.04.28 at 15h 38m 53s.xml">
-      <configuration name="CompositeTest.testComposite" configurationId="JUnit" />
+    <history-entry file="CircleTest_testCalculateCircleLength - 2016.04.28 at 16h 41m 04s.xml">
+      <configuration name="CircleTest.testCalculateCircleLength" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompositeTest_testComposite - 2016.04.28 at 15h 42m 01s.xml">
-      <configuration name="CompositeTest.testComposite" configurationId="JUnit" />
+    <history-entry file="CircleTest_testToString - 2016.04.28 at 16h 41m 40s.xml">
+      <configuration name="CircleTest.testToString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompositeTest_testComposite - 2016.04.28 at 15h 44m 05s.xml">
-      <configuration name="CompositeTest.testComposite" configurationId="JUnit" />
+    <history-entry file="CircleTest_testToString - 2016.04.28 at 16h 41m 55s.xml">
+      <configuration name="CircleTest.testToString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CubeTest_testArea - 2016.04.28 at 14h 08m 10s.xml">
-      <configuration name="CubeTest.testArea" configurationId="JUnit" />
+    <history-entry file="CubeTest_testToString - 2016.04.28 at 16h 42m 48s.xml">
+      <configuration name="CubeTest.testToString" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -909,19 +931,20 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32920536" sideWeight="0.4847826" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32920536" sideWeight="0.51521736" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33436534" sideWeight="0.53695655" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33436534" sideWeight="0.4673913" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33436534" sideWeight="0.46304348" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298913" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25108695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25108695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42414862" sideWeight="0.48043478" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42414862" sideWeight="0.47826087" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -946,25 +969,26 @@
     <MESSAGE value="Other changes on constructors + added composite pattern" />
     <MESSAGE value="Added all tests" />
     <MESSAGE value="Modified composite pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified composite pattern" />
+    <MESSAGE value="Added more test methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more test methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/twodimensionalforms/SquareTest.java</url>
-          <line>23</line>
+          <line>39</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/twodimensionalforms/TriangleTest.java</url>
-          <line>24</line>
+          <line>39</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1060,6 +1084,10 @@
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1131,16 +1159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/ShapeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Line.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1154,8 +1172,8 @@
         <state relative-caret-position="170">
           <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="false" />
+            <element signature="e#240#241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1165,58 +1183,6 @@
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/SquareTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/TriangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/CircleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/TrapezeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/RectangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1230,16 +1196,6 @@
             <element signature="e#1548#1549#0" expanded="true" />
             <element signature="e#1622#1623#0" expanded="true" />
             <element signature="e#1679#1680#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Composite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1265,52 +1221,6 @@
         <state relative-caret-position="238">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="58" column="136" selection-start-line="58" selection-start-column="136" selection-end-line="58" selection-end-column="136" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1509#1510#0" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1343,33 +1253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding>
-            <element signature="e#2187#2188#0" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Side.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Operations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1389,6 +1272,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Operations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/Polyhedron.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1400,24 +1291,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/CubeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Composite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="85">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="83" column="167" selection-start-line="83" selection-start-column="167" selection-end-line="83" selection-end-column="167" />
+          <folding>
+            <element signature="e#2187#2188#0" expanded="true" />
+            <element signature="e#2244#2245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Side.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/CompositeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state relative-caret-position="306">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/ShapeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/CircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="24" column="16" selection-start-line="22" selection-start-column="1" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/CubeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/SquareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/TrapezeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding>
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/TriangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
           </folding>
         </state>
       </provider>

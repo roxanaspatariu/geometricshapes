@@ -1,5 +1,6 @@
 package twodimensionalforms;
 
+import auxiliare.Font;
 import auxiliare.Point;
 import org.junit.Assert;
 import org.junit.Before;
@@ -20,6 +21,22 @@ public class RectangleTest {
         rectangle = new Rectangle(a, b, c);
     }
 
+    @Test
+    public void testDraw(){
+        rectangle.draw();
+    }
+
+    @Test
+    public void testSetFont(){
+        rectangle.setFont(new Font("red", 4));
+        rectangle.draw();
+    }
+
+
+    @Test
+    public void testToString(){
+        System.out.println(rectangle.toString());
+    }
     @Test
     public void testArea() {
         Assert.assertTrue(rectangle.calculateArea() == 2);

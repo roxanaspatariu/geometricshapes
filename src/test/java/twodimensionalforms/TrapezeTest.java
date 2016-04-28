@@ -1,5 +1,6 @@
 package twodimensionalforms;
 
+import auxiliare.Font;
 import auxiliare.Point;
 import org.junit.Assert;
 import org.junit.Before;
@@ -20,7 +21,21 @@ public class TrapezeTest {
         Point d = new Point(1, 1);
         trapeze = new Trapeze(a, b, c, d);
     }
+    @Test
+    public void testDraw(){
+        trapeze.draw();
+    }
 
+    @Test
+    public void testSetFont(){
+        trapeze.setFont(new Font("red", 4));
+        trapeze.draw();
+    }
+
+    @Test
+    public void testToString(){
+        System.out.println(trapeze.toString());
+    }
     @Test
     public void testArea() {
         trapeze.calculateArea();
