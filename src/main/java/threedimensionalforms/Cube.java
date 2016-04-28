@@ -15,16 +15,17 @@ public class Cube extends Polyhedron {
     Vector f;
     Vector g;
     Vector h;
+    double sideLength;
 
     public Cube() {
     }
 
     public Cube(Vector a, Vector b) {
-        double sideLength = Math.sqrt(Math.pow(a.getX() - b.getX(), 2) + Math.pow(a.getY() - b.getY(), 2));
+        sideLength = Math.sqrt(Math.pow(a.getX() - b.getX(), 2) + Math.pow(a.getY() - b.getY(), 2));
     }
 
     @Override
     public double calculateArea() {
-        return 0;
+        return Math.pow(sideLength,3);
     }
 }

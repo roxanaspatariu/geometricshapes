@@ -17,6 +17,4 @@ public class ShapeFactoryTest {
         Shape shape = shapeFactory.getShape(Forms.CIRCLE.name());
         Assert.assertEquals("CIRCLE", shape.getName());
     }
-
-
 }

@@ -8,20 +8,20 @@ import org.junit.Test;
 /**
  * Created by V3790147 on 4/28/2016.
  */
-public class CircleTest {
+public class TriangleTest {
 
-    private Circle circle;
+    private Triangle triangle;
 
     @Before
     public void init() {
-        Point a = new Point(2, 2);
-        double radius = 1;
-        circle = new Circle(radius, a);
+        Point a = new Point(0, 0);
+        Point b = new Point(1, 1);
+        Point c = new Point(2, 0);
+        triangle = new Triangle(a, b, c);
     }
 
     @Test
     public void testArea() {
-        circle.calculateArea();
-        Assert.assertTrue(circle.getArea() == 2*Math.PI);
+        Assert.assertTrue(triangle.calculateArea() == 1);
     }
 }

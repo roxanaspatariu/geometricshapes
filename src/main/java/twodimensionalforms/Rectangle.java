@@ -9,8 +9,8 @@ import auxiliare.Side;
  */
 public class Rectangle extends Polygon {
 
-    private Side sideMica;
-    private Side sideMare;
+    private Side smallSide;
+    private Side greatSide;
     private Point a;
     private Point b;
     private Point c;
@@ -31,8 +31,10 @@ public class Rectangle extends Polygon {
         double laturaMicaSize = Math.sqrt(Math.pow(b.getX() - c.getX(), 2) + Math.pow(b.getY() - c.getY(), 2));
 
         if ((b.getX() - a.getX()) / (c.getX() - a.getX()) != (b.getY() - a.getY()) / (c.getY() - a.getY())) {
-            sideMica.setSize(laturaMicaSize);
-            sideMare.setSize(laturaMareSize);
+            smallSide = new Side();
+            greatSide = new Side();
+            smallSide.setSize(laturaMicaSize);
+            greatSide.setSize(laturaMareSize);
         } else {
             throw new IllegalArgumentException("You entered the wrong coordinates! The points are colinear!");
         }
@@ -41,7 +43,7 @@ public class Rectangle extends Polygon {
 
     @Override
     public double calculateArea() {
-        return sideMare.getSize() * sideMica.getSize();
+        return greatSide.getSize() * smallSide.getSize();
     }
 
     @Override

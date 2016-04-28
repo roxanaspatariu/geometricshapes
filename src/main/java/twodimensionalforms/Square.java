@@ -75,7 +75,13 @@ public class Square extends Polygon implements Operations {
 
     @Override
     public void draw() {
-        System.out.println("Desenezi un patrat de culoarea " + super.getFont().getColor() + " si bordura de " + super.getFont().getBorderSize() + "cm");
-        System.out.println("Patratul se afla la coordonatele (" + a.getX() + "), " + a.getX() + "(" + b.getX() + "," + b.getY() + "), (" + c.getX() + "," + c.getY() + "), (" + d.getX() + "," + d.getY() + ")");
+        System.out.println("You're drawing a " + super.getFont().getColor() + "square with a border of " + super.getFont().getBorderSize() + " cm");
+    }
+
+    @Override
+    public String toString(){
+        return "Square with coordinates (" + (int)a.getX() + "," + (int)a.getY() + "), (" + (int)b.getX() + "," + (int)b.getY() + "), (" + (int)c.getX() + (int)c.getY() + ") " +
+                " \n with area " + String.valueOf(super.getArea()) + ", \n" + super.getFont().getColor() + " with a border of " + String.valueOf(super.getFont().getBorderSize());
+
     }
 }

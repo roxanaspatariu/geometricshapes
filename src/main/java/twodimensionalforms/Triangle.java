@@ -36,6 +36,6 @@ public class Triangle extends Polygon {
 
     @Override
     public double calculateArea() {
-        return 1 / 2 * Math.abs(det);
+        return Math.abs(det) * 1 / 2;
     }
 }

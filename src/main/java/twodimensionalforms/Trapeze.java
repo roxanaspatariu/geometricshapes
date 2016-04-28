@@ -63,4 +63,12 @@ public class Trapeze extends Polygon implements Operations {
         System.out.println("You're drawing a " + super.getFont().getColor() + " trapeze with a border of " + super.getFont().getBorderSize() + "cm");
     }
 
+    @Override
+    public String toString() {
+        return "Trapeze with coordinates (" + (int) a.getX() + "," + (int) a.getY() + "), (" + (int) b.getX() + "," + (int) b.getY() + "), (" + (int) c.getX() + (int) c.getY() + "), (" +
+                (int) d.getX() + "," + (int) d.getY() + ") " +
+                " \n with area " + String.valueOf(super.getArea()) + ", \n" + super.getFont().getColor() + " with a border of " + String.valueOf(super.getFont().getBorderSize());
+
+    }
+
 }

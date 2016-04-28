@@ -2,6 +2,7 @@ package twodimensionalforms;
 
 import auxiliare.Point;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 /**
@@ -9,14 +10,19 @@ import org.junit.Test;
  */
 public class TrapezeTest {
 
-    @Test
-    public void testArea() {
+    private Trapeze trapeze;
+
+    @Before
+    public void init() {
         Point a = new Point(2, 2);
         Point b = new Point(3, 2);
         Point c = new Point(4, 1);
         Point d = new Point(1, 1);
+        trapeze = new Trapeze(a, b, c, d);
+    }
 
-        Trapeze trapeze = new Trapeze(a, b, c, d);
+    @Test
+    public void testArea() {
         trapeze.calculateArea();
         Assert.assertTrue(trapeze.getArea() == 2);
     }
