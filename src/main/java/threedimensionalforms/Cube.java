@@ -2,13 +2,12 @@ package threedimensionalforms;
 
 import auxiliare.Font;
 import auxiliare.Forms;
-import auxiliare.Operations;
 import auxiliare.Vector;
 
 /**
  * Created by Roxana on 4/25/2016.
  */
-public class Cube extends Polyhedron implements Operations {
+public class Cube extends Polyhedron {
 
     private Vector a;
     private Vector b;

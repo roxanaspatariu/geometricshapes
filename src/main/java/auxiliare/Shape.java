@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by Roxana on 4/25/2016.
  */
-public abstract class Shape implements Operations {
+public abstract class Shape {
     private String name;
     private double area;
     private int dimension;
@@ -67,7 +67,6 @@ public abstract class Shape implements Operations {
         return shapes;
     }
 
-    @Override
     public  void draw() {
         System.out.println("You're drawing a "+ font.getColor()+ " " +name + " with a border of "+font.getBorderSize()+" cm" );
         for (Shape shape : this.getSubShapes()) {
@@ -76,9 +75,10 @@ public abstract class Shape implements Operations {
         }
     }
 
-    @Override
     public void viewFont(){
         System.out.println("You're drawing a "+ font.getColor()+ " " +name + " with a border of "+font.getBorderSize()+" cm" );
     }
+
+    public abstract double calculateArea();
 
 }

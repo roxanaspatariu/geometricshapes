@@ -1,14 +1,12 @@
 package twodimensionalforms;
 
-import auxiliare.Font;
 import auxiliare.Forms;
-import auxiliare.Operations;
 import auxiliare.Point;
 
 /**
  * Created by Roxana on 4/25/2016.
  */
-public class Circle extends Curves implements Operations {
+public class Circle extends Curves {
     private double lungime;
     private Point centru;
 
@@ -38,7 +36,7 @@ public class Circle extends Curves implements Operations {
         return lungime;
     }
 
-    @Override
+
     public double calculateArea() {
         double area = 2 * Math.PI * Math.pow(radius, 2);
         super.setArea(area);

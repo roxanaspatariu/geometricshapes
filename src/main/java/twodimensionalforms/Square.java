@@ -5,7 +5,7 @@ import auxiliare.*;
 /**
  * Created by Roxana on 4/25/2016.
  */
-public class Square extends Polygon implements Operations {
+public class Square extends Polygon {
     private Side side;
     private Point a;
     private Point b;

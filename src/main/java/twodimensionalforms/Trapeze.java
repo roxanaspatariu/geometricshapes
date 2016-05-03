@@ -5,7 +5,7 @@ import auxiliare.*;
 /**
  * Created by Roxana on 4/25/2016.
  */
-public class Trapeze extends Polygon implements Operations {
+public class Trapeze extends Polygon {
 
     private Side smallBase;
     private Side greatBase;

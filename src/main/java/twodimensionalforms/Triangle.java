@@ -1,13 +1,11 @@
 package twodimensionalforms;
 
-import auxiliare.Font;
-import auxiliare.Operations;
 import auxiliare.Point;
 
 /**
  * Created by Roxana on 4/25/2016.
  */
-public class Triangle extends Polygon implements Operations {
+public class Triangle extends Polygon {
 
     private Point a;
     private Point b;

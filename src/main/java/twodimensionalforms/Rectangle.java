@@ -5,7 +5,7 @@ import auxiliare.*;
 /**
  * Created by v3790147 on 4/27/2016.
  */
-public class Rectangle extends Polygon implements Operations {
+public class Rectangle extends Polygon {
 
     private Side smallSide;
     private Side greatSide;
