@@ -53,16 +53,6 @@ public class Cube extends Polyhedron implements Operations {
     }
 
     @Override
-    public void setFont(String color, double borderSize) {
-        this.font = new Font(color, borderSize);
-    }
-
-    @Override
-    public void draw() {
-        System.out.print("You're drawing a "+this.getFont().getColor()+"cube having a border of " + this.getFont().getBorderSize() + "cm");
-    }
-
-    @Override
     public String toString() {
         return "Cube at coordinates a(" + (int)a.getX() + "," +
                 (int)a.getY() + "," + (int)a.getZ() + "), b(" + (int)b.getX() + "," + (int)b.getY() + "," + (int)b.getZ() + "), c(" + (int)c.getX() + "," + (int)c.getY() + "," + (int)c.getZ() + "), d(" +

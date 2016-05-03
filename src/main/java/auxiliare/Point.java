@@ -3,7 +3,7 @@ package auxiliare;
 /**
  * Created by Roxana on 4/25/2016.
  */
-public class Point extends Dimension {
+public class Point  {
 
     private double x;
     private double y;
@@ -29,7 +29,4 @@ public class Point extends Dimension {
         this.y = y;
     }
 
-    public void setDimension(int dimension) {
-        dimension = 1;
-    }
 }

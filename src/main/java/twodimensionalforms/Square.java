@@ -74,15 +74,6 @@ public class Square extends Polygon implements Operations {
         return Math.pow(side.getSize(),2);
     }
 
-    @Override
-    public void setFont(String color, double borderSize) {
-        this.setFont(new Font(color, borderSize));
-    }
-
-    @Override
-    public void draw() {
-        System.out.println("You're drawing a " + this.getFont().getColor() + "square with a border of " + String.valueOf((int)this.getFont().getBorderSize()) + " cm");
-    }
 
     @Override
     public String toString(){

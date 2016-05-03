@@ -29,7 +29,7 @@ public class CubeTest {
 
     @Test
     public void testSetFont(){
-        cube.setFont(new Font("red", 4));
+        cube.setFont("red", 4);
         cube.draw();
     }
     
@@ -41,4 +41,10 @@ public class CubeTest {
     public void testArea() {
         Assert.assertTrue(cube.calculateArea() == 1);
     }
+
+    @Test
+    public void testDimension(){
+        Assert.assertEquals(3, cube.getDimension());
+    }
+
 }

@@ -9,15 +9,12 @@ public abstract class Polygon extends Shape {
 
     public Polygon(){
         super();
+        super.setDimension(2);
     }
 
     public Polygon(Shape shape) {
         super(shape);
-    }
-
-    @Override
-    public void setDimension(int dimension) {
-        dimension = 2;
+        super.setDimension(2);
     }
 
 

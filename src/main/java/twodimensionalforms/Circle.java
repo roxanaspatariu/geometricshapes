@@ -46,16 +46,6 @@ public class Circle extends Curves implements Operations {
     }
 
     @Override
-    public void setFont(String colour, double borderSize) {
-        this.setFont(new Font(colour, borderSize));
-    }
-
-    @Override
-    public void draw() {
-        System.out.println("You're drawing a " + this.getFont().getColor() + " circle with a border of " + String.valueOf((int)this.getFont().getBorderSize()) + "cm");
-    }
-
-    @Override
     public String toString() {
         return "Circle at (" + (int)centru.getX() + "," + (int)centru.getY() + "), with radius " + (int)radius + " cm";
     }

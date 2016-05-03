@@ -28,7 +28,7 @@ public class RectangleTest {
 
     @Test
     public void testSetFont(){
-        rectangle.setFont(new Font("red", 4));
+        rectangle.setFont("red", 4);
         rectangle.draw();
     }
 
@@ -42,4 +42,8 @@ public class RectangleTest {
         Assert.assertTrue(rectangle.calculateArea() == 2);
     }
 
+    @Test
+    public void testDimension(){
+        Assert.assertEquals(2, rectangle.getDimension());
+    }
 }

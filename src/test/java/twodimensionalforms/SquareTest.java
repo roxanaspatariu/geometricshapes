@@ -27,7 +27,7 @@ public class SquareTest {
 
     @Test
     public void testSetFont(){
-        square.setFont(new Font("red", 4));
+        square.setFont("red", 4);
         square.draw();
     }
 
@@ -39,5 +39,9 @@ public class SquareTest {
     public void testArea() {
         square.calculateArea();
         Assert.assertTrue(square.getArea() == 1);
+    }
+    @Test
+    public void testDimension(){
+        Assert.assertEquals(2, square.getDimension());
     }
 }

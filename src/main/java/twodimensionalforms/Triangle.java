@@ -43,18 +43,9 @@ public class Triangle extends Polygon implements Operations {
     }
 
     @Override
-    public void setFont(String color, double borderSize) {
-        this.setFont(new Font(color, borderSize));
-    }
-
-    @Override
-    public void draw() {
-        System.out.println("You're drawing a " + this.getFont().getColor() + " triangle with a border of " + String.valueOf((int) this.getFont().getBorderSize()) + " cm");
-    }
-
-    @Override
     public String toString() {
-        return "Triangle with coordonates at a(" + a.getX() + "," + a.getY() + "), b(" + b.getX() + "," + b.getY() + "), c(" + c.getX() + "," + c.getY() + ").";
+        return "Triangle with coordonates at a(" + (int)a.getX() + "," + (int)a.getY() + "), b(" + (int)b.getX() + "," + (int)b.getY() + "), c(" + (int)c.getX() + "," + (int)c.getY() + ").";
     }
+
 
 }

@@ -28,6 +28,9 @@ public class Rectangle extends Polygon implements Operations {
 
     public Rectangle(Point a, Point b, Point c) {
         this.setName(Forms.RECTANGLE.name());
+        this.a = a;
+        this.b = b;
+        this.c = c;
         this.d = new Point(a.getX(), c.getY());
         double laturaMareSize = Math.sqrt(Math.pow(a.getX() - b.getX(), 2) + Math.pow(a.getY() - b.getY(), 2));
         double laturaMicaSize = Math.sqrt(Math.pow(b.getX() - c.getX(), 2) + Math.pow(b.getY() - c.getY(), 2));
@@ -50,20 +53,9 @@ public class Rectangle extends Polygon implements Operations {
 
     @Override
     public String toString() {
-        String msg = "Rectangle with coordinates a(" + (int) a.getX() + "," + (int) a.getY() + "), b(" + (int) b.getX() + "," + (int) b.getY() + "), c(" + (int) c.getX() + (int) c.getY() + "), d(" +
-                +(int)d.getX() + "," + (int)d.getY() + ").";
-        System.out.println(msg);
-        return msg;
-    }
-
-    @Override
-    public void setFont(String color, double borderSize) {
-        this.setFont(new Font(color, borderSize));
-    }
-
-    @Override
-    public void draw() {
-        System.out.println("You're drawing a " + this.getFont().getColor() + "rectangle with a border of " + String.valueOf((int) this.getFont().getBorderSize()) + "cm");
+        return "Rectangle with coordinates a(" + (int) a.getX() + "," + (int) a.getY() + "), b(" + (int) b.getX() + "," + (int) b.getY() + "), c(" + (int) c.getX() + "," + (int) c.getY() + "), d(" +
+                +(int) d.getX() + "," + (int) d.getY() + ").";
 
     }
+
 }

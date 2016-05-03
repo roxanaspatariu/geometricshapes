@@ -6,10 +6,18 @@ import java.util.List;
 /**
  * Created by Roxana on 4/25/2016.
  */
-public abstract class Shape extends Dimension {
+public abstract class Shape implements Operations {
     private String name;
     private double area;
-    private double perimeter;
+    private int dimension;
+
+    public int getDimension() {
+        return dimension;
+    }
+
+    public void setDimension(int dimension) {
+        this.dimension = dimension;
+    }
 
     private Font font = new Font();
 
@@ -17,8 +25,8 @@ public abstract class Shape extends Dimension {
         return font;
     }
 
-    public void setFont(Font font) {
-        this.font = font;
+    public void setFont(String color, int borderSize) {
+        this.font = new Font(color, borderSize);
     }
 
     public String getName() {
@@ -59,13 +67,18 @@ public abstract class Shape extends Dimension {
         return shapes;
     }
 
-
-    public String showShapes() {
-        String msg = "";
+    @Override
+    public  void draw() {
+        System.out.println("You're drawing a "+ font.getColor()+ " " +name + " with a border of "+font.getBorderSize()+" cm" );
         for (Shape shape : this.getSubShapes()) {
-            msg = msg + shape.getName() + "\n";
+            System.out.println("Subshape: ");
+            shape.draw();
         }
-        return msg;
+    }
+
+    @Override
+    public void viewFont(){
+        System.out.println("You're drawing a "+ font.getColor()+ " " +name + " with a border of "+font.getBorderSize()+" cm" );
     }
 
 }

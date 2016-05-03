@@ -12,15 +12,12 @@ public abstract class Curves extends Shape {
 
     public Curves(){
         super();
+        setDimension(2);
     }
 
     public Curves(Shape shape) {
         super(shape);
-    }
-
-    @Override
-    public void setDimension(int dimension) {
-        dimension = 2;
+        setDimension(2);
     }
 
 }

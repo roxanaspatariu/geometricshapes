@@ -1,5 +1,8 @@
-package auxiliare;
+package factory;
 
+import auxiliare.Font;
+import auxiliare.Forms;
+import auxiliare.Shape;
 import threedimensionalforms.Cube;
 import twodimensionalforms.*;
 
@@ -9,9 +12,12 @@ import twodimensionalforms.*;
 public class ShapeFactory {
 
     public Shape getShape(String shapeName) {
-        Forms shape = Forms.valueOf(shapeName);
-        if(shapeName == null){
-            return null;
+        Forms shape;
+        try {
+            shape = Forms.valueOf(shapeName);
+        } catch (IllegalArgumentException e) {
+            throw new IllegalArgumentException("The shape doesn't exist!. You must specify one of the following: \n" +
+                    "Circle/Square/Rectangle/Triangle/Trapeze/Cube");
         }
         switch (shape) {
             case CIRCLE:
@@ -28,6 +34,8 @@ public class ShapeFactory {
                 return new Cube();
         }
         return null;
+
+
     }
 
 }

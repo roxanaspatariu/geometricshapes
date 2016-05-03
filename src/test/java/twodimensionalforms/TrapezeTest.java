@@ -21,24 +21,31 @@ public class TrapezeTest {
         Point d = new Point(1, 1);
         trapeze = new Trapeze(a, b, c, d);
     }
+
     @Test
-    public void testDraw(){
+    public void testDraw() {
         trapeze.draw();
     }
 
     @Test
-    public void testSetFont(){
-        trapeze.setFont(new Font("red", 4));
+    public void testSetFont() {
+        trapeze.setFont("red", 4);
         trapeze.draw();
     }
 
     @Test
-    public void testToString(){
+    public void testToString() {
         System.out.println(trapeze.toString());
     }
+
     @Test
     public void testArea() {
         trapeze.calculateArea();
         Assert.assertTrue(trapeze.getArea() == 2);
+    }
+
+    @Test
+    public void testDimension(){
+        Assert.assertEquals(2, trapeze.getDimension());
     }
 }

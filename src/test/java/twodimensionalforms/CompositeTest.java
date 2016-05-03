@@ -17,7 +17,7 @@ public class CompositeTest {
         shape.addSubShape(new Circle());
         shape.addSubShape(new Rectangle());
         shape.addSubShape(new Cube());
-        System.out.println(shape.showShapes());
+        //System.out.println(shape.showShapes());
         Assert.assertEquals(3, shape.getSubShapes().size());
     }
 
@@ -28,7 +28,8 @@ public class CompositeTest {
         shape.addSubShape(new Rectangle());
         shape.addSubShape(new Cube());
         shape.removeSubShape(shape.getSubShapes().get(0));
-        System.out.println(shape.showShapes());
+
+        //System.out.println(shape.showShapes());
         Assert.assertEquals(2, shape.getSubShapes().size());
     }
 }

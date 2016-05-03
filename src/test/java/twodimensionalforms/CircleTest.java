@@ -20,24 +20,25 @@ public class CircleTest {
         circle = new Circle(radius, a);
     }
 
+
     @Test
-    public void testDraw(){
+    public void testDraw() {
         circle.draw();
     }
 
     @Test
-    public void testSetFont(){
-        circle.setFont(new Font("red", 4));
+    public void testSetFont() {
+        circle.setFont("red", 4);
         circle.draw();
     }
 
     @Test
-    public void testCalculateCircleLength(){
+    public void testCalculateCircleLength() {
         Assert.assertTrue(circle.calculateCircleLength() == 2 * Math.PI * radius);
     }
 
     @Test
-    public void testToString(){
+    public void testToString() {
         System.out.println(circle.toString());
     }
 
@@ -45,5 +46,10 @@ public class CircleTest {
     public void testArea() {
         circle.calculateArea();
         Assert.assertTrue(circle.getArea() == 2*Math.PI);
+    }
+
+    @Test
+    public void testDimension(){
+        Assert.assertEquals(2, circle.getDimension());
     }
 }

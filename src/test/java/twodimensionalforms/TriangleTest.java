@@ -20,23 +20,29 @@ public class TriangleTest {
         Point c = new Point(2, 0);
         triangle = new Triangle(a, b, c);
     }
+
     @Test
-    public void testDraw(){
+    public void testDraw() {
         triangle.draw();
     }
 
     @Test
-    public void testSetFont(){
-        triangle.setFont(new Font("red", 4));
+    public void testSetFont() {
+        triangle.setFont("red", 4);
         triangle.draw();
     }
 
     @Test
-    public void testToString(){
+    public void testToString() {
         System.out.println(triangle.toString());
     }
+
     @Test
     public void testArea() {
         Assert.assertTrue(triangle.calculateArea() == 1);
+    }
+    @Test
+    public void testDimension(){
+        Assert.assertEquals(2, triangle.getDimension());
     }
 }
