@@ -63,9 +63,16 @@ public class Trapeze extends Polygon {
 
     @Override
     public String toString() {
-        return "Trapeze with coordinates (" + (int) a.getX() + "," + (int) a.getY() + "), (" + (int) b.getX() + "," + (int) b.getY() + "), (" + (int) c.getX() + (int) c.getY() + "), (" +
+        return "Trapeze with coordinates a(" + (int) a.getX() + "," + (int) a.getY() + "), b(" + (int) b.getX() + "," + (int) b.getY() + "), c(" + (int) c.getX() + (int) c.getY() + "), d(" +
                 (int) d.getX() + "," + (int) d.getY() + ") ";
 
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("You're drawing a " + getFont().getColor() + " " + getName() + " with a border of " + getFont().getBorderSize()
+                + " cm, at a(" + (int) a.getX() + "," + (int) a.getY() + "), b(" + (int) b.getX() + "," + (int) b.getY() + "), c(" + (int) c.getX() + (int) c.getY() + "), d(" +
+                (int) d.getX() + "," + (int) d.getY() + ") ");
     }
 
 }

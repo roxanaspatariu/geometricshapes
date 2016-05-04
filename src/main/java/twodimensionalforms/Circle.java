@@ -2,6 +2,7 @@ package twodimensionalforms;
 
 import auxiliare.Forms;
 import auxiliare.Point;
+import exceptions.NegativeValuesException;
 
 /**
  * Created by Roxana on 4/25/2016.
@@ -21,13 +22,21 @@ public class Circle extends Curves {
     public Circle(double radius) {
         this.setName(Forms.CIRCLE.name());
         this.centru = new Point(0, 0);
-        this.radius = radius;
+        if(radius<0) {
+            throw new NegativeValuesException();
+        }else{
+            this.radius = radius;
+        }
     }
 
     public Circle(double radius, Point centru) {
         this.setName(Forms.CIRCLE.name());
         this.centru = new Point(centru.getX(), centru.getY());
-        this.radius = radius;
+        if(radius<0) {
+            throw new NegativeValuesException();
+        }else {
+            this.radius = radius;
+        }
     }
 
 
@@ -45,6 +54,11 @@ public class Circle extends Curves {
 
     @Override
     public String toString() {
-        return "Circle at (" + (int)centru.getX() + "," + (int)centru.getY() + "), with radius " + (int)radius + " cm";
+        return "Circle at (" + (int) centru.getX() + "," + (int) centru.getY() + "), with radius " + (int) radius + " cm";
+    }
+
+    public void draw() {
+        System.out.println("You're drawing a " + getFont().getColor() + " " + getName() + " with a border of" +
+                " " + getFont().getBorderSize() + " cm, at (" + (int) centru.getX() + "," + (int) centru.getY() +"), with radius " + (int) radius + " cm." );
     }
 }

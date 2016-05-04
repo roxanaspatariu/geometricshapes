@@ -1,5 +1,6 @@
 package twodimensionalforms;
 
+import auxiliare.Forms;
 import auxiliare.Point;
 
 /**
@@ -14,6 +15,7 @@ public class Triangle extends Polygon {
     private double det;
 
     public Triangle(Point a, Point b, Point c) {
+        this.setName(Forms.TRIANGLE.name());
         if (a.equals(b) || b.equals(c) || a.equals(c)) {
             throw new IllegalArgumentException("You put 2 similar points!");
         } else if ((b.getX() - a.getX()) / (c.getX() - a.getX()) == (b.getY() - a.getY()) / (c.getY() - a.getY())) {
@@ -30,6 +32,7 @@ public class Triangle extends Polygon {
     }
 
     public Triangle() {
+        this.setName(Forms.TRIANGLE.name());
         this.a = new Point(1, 1);
         this.b = new Point(0, 0);
         this.c = new Point(2, 0);
@@ -42,7 +45,13 @@ public class Triangle extends Polygon {
 
     @Override
     public String toString() {
-        return "Triangle with coordonates at a(" + (int)a.getX() + "," + (int)a.getY() + "), b(" + (int)b.getX() + "," + (int)b.getY() + "), c(" + (int)c.getX() + "," + (int)c.getY() + ").";
+        return "Triangle with coordonates at a(" + (int) a.getX() + "," + (int) a.getY() + "), b(" + (int) b.getX() + "," + (int) b.getY() + "), c(" + (int) c.getX() + "," + (int) c.getY() + ").";
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("You're drawing a " + getFont().getColor() + " " + getName() + " with a border of " + getFont().getBorderSize() + " cm, at a("
+                + (int) a.getX() + "," + (int) a.getY() + "), b(" + (int) b.getX() + "," + (int) b.getY() + "), c(" + (int) c.getX() + "," + (int) c.getY() + ").");
     }
 
 

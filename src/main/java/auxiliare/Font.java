@@ -1,5 +1,7 @@
 package auxiliare;
 
+import exceptions.NegativeValuesException;
+
 /**
  * Created by Roxana on 4/25/2016.
  */
@@ -18,7 +20,16 @@ public class Font {
 
     public Font(String colour, double borderSize) {
         this.colour = colour;
-        this.borderSize = borderSize;
+        if(borderSize<0){
+            try {
+                throw new NegativeValuesException();
+            } catch (NegativeValuesException e) {
+                e.printStackTrace();
+                this.borderSize = Math.abs(borderSize);
+            }
+        } else {
+            this.borderSize = borderSize;
+        }
     }
 
     public String getColor() {

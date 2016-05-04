@@ -1,5 +1,7 @@
 package auxiliare;
 
+import java.util.Random;
+
 /**
  * Created by v3790147 on 4/27/2016.
  */
@@ -15,5 +17,11 @@ public enum Forms {
 
     Forms(final String s) {
         stringValue = s;
+    }
+
+    public static final Forms[] VALUES = values();
+
+    public static Forms randomForm(){
+        return VALUES[(int) (Math.random() * VALUES.length)];
     }
 }

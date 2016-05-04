@@ -26,20 +26,21 @@ public class Rectangle extends Polygon {
         greatSide.calculateSize();
     }
 
+
     public Rectangle(Point a, Point b, Point c) {
         this.setName(Forms.RECTANGLE.name());
         this.a = a;
         this.b = b;
         this.c = c;
         this.d = new Point(a.getX(), c.getY());
-        double laturaMareSize = Math.sqrt(Math.pow(a.getX() - b.getX(), 2) + Math.pow(a.getY() - b.getY(), 2));
-        double laturaMicaSize = Math.sqrt(Math.pow(b.getX() - c.getX(), 2) + Math.pow(b.getY() - c.getY(), 2));
+        double greatSideSize = Math.sqrt(Math.pow(a.getX() - b.getX(), 2) + Math.pow(a.getY() - b.getY(), 2));
+        double smallSideSize = Math.sqrt(Math.pow(b.getX() - c.getX(), 2) + Math.pow(b.getY() - c.getY(), 2));
 
         if ((b.getX() - a.getX()) / (c.getX() - a.getX()) != (b.getY() - a.getY()) / (c.getY() - a.getY())) {
             smallSide = new Side();
             greatSide = new Side();
-            smallSide.setSize(laturaMicaSize);
-            greatSide.setSize(laturaMareSize);
+            smallSide.setSize(smallSideSize);
+            greatSide.setSize(greatSideSize);
         } else {
             throw new IllegalArgumentException("You entered the wrong coordinates! The points are colinear!");
         }
@@ -57,5 +58,13 @@ public class Rectangle extends Polygon {
                 +(int) d.getX() + "," + (int) d.getY() + ").";
 
     }
+
+    @Override
+    public void draw() {
+        System.out.println("You're drawing a " + getFont().getColor() + " " + getName() + " with a border of " + getFont().getBorderSize() + " cm, at a(" +
+                (int) a.getX() + "," + (int) a.getY() + "), b(" + (int) b.getX() + "," + (int) b.getY() + "), c(" + (int) c.getX() + "," + (int) c.getY() + "), d(" +
+                +(int) d.getX() + "," + (int) d.getY() + ").");
+    }
+
 
 }

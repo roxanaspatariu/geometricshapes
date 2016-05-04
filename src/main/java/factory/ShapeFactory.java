@@ -32,10 +32,9 @@ public class ShapeFactory {
                 return new Trapeze();
             case CUBE:
                 return new Cube();
+            default:
+                return new Triangle();
         }
-        return null;
-
-
     }
 
 }

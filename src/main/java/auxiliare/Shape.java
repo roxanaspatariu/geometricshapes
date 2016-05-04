@@ -60,25 +60,38 @@ public abstract class Shape {
     }
 
     public void removeSubShape(Shape shape) {
-        shapes.remove(shape);
+        if (shapes.isEmpty()) {
+            throw new NullPointerException("The list of subshapes is empty");
+        } else {
+            shapes.remove(shape);
+        }
     }
 
     public List<Shape> getSubShapes() {
         return shapes;
     }
 
-    public  void draw() {
-        System.out.println("You're drawing a "+ font.getColor()+ " " +name + " with a border of "+font.getBorderSize()+" cm" );
+    public void setSubShapes(List<Shape> shapes) {
+        this.shapes.addAll(shapes);
+    }
+
+    public void drawSubShapes() {
+        this.draw();
         for (Shape shape : this.getSubShapes()) {
-            System.out.println("Subshape: ");
+            System.out.print("Subshapes: ");
             shape.draw();
         }
     }
 
-    public void viewFont(){
-        System.out.println("You're drawing a "+ font.getColor()+ " " +name + " with a border of "+font.getBorderSize()+" cm" );
+    public void draw() {
+        System.out.println("You're drawing a " + getFont().getColor() + " " + getName() + " with a border of " + getFont().getBorderSize() + " cm");
+    }
+
+    public void viewFont() {
+        System.out.println("You're drawing a " + font.getColor() + " " + name + " with a border of " + font.getBorderSize() + " cm");
     }
 
     public abstract double calculateArea();
+
 
 }

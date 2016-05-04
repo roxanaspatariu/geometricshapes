@@ -53,9 +53,19 @@ public class Cube extends Polyhedron {
 
     @Override
     public String toString() {
-        return "Cube at coordinates a(" + (int)a.getX() + "," +
-                (int)a.getY() + "," + (int)a.getZ() + "), b(" + (int)b.getX() + "," + (int)b.getY() + "," + (int)b.getZ() + "), c(" + (int)c.getX() + "," + (int)c.getY() + "," + (int)c.getZ() + "), d(" +
-                +(int)d.getX() + "," + (int)d.getY() + "," + (int)d.getZ() + "), e(" + (int)e.getX() + "," + (int)e.getY() + "," + (int)e.getZ() + "), f(" + (int)f.getX() + "," + (int)f.getY() + "," + (int)f.getZ() + "), g(" +
-                + (int)g.getX() + "," + (int)g.getY() + "," + (int)g.getZ() + "), h(" + (int)h.getX() + "," + (int)h.getY() + "," + (int)h.getZ() + ").";
+        return "Cube at coordinates a(" + (int) a.getX() + "," +
+                (int) a.getY() + "," + (int) a.getZ() + "), b(" + (int) b.getX() + "," + (int) b.getY() + "," + (int) b.getZ() + "), c(" + (int) c.getX() + "," + (int) c.getY() + "," + (int) c.getZ() + "), d(" +
+                +(int) d.getX() + "," + (int) d.getY() + "," + (int) d.getZ() + "), e(" + (int) e.getX() + "," + (int) e.getY() + "," + (int) e.getZ() + "), f(" + (int) f.getX() + "," + (int) f.getY() + "," + (int) f.getZ() + "), g(" +
+                +(int) g.getX() + "," + (int) g.getY() + "," + (int) g.getZ() + "), h(" + (int) h.getX() + "," + (int) h.getY() + "," + (int) h.getZ() + ").";
     }
+
+    @Override
+    public void draw() {
+        System.out.println("You're drawing a " + getFont().getColor() + " " + getName() + " with a border of " + getFont().getBorderSize() + " cm, at a(" +
+                +(int) a.getX() + "," + (int) a.getY() + "," + (int) a.getZ() + "), b(" + (int) b.getX() + "," + (int) b.getY() + "," + (int) b.getZ() +
+                "), c(" + (int) c.getX() + "," + (int) c.getY() + "," + (int) c.getZ() + "), d(" + (int) d.getX() + "," + (int) d.getY() + "," + (int) d.getZ()
+                + "), e(" + (int) e.getX() + "," + (int) e.getY() + "," + (int) e.getZ() + "), f(" + (int) f.getX() + "," + (int) f.getY() + "," + (int) f.getZ() + "), g(" +
+                +(int) g.getX() + "," + (int) g.getY() + "," + (int) g.getZ() + "), h(" + (int) h.getX() + "," + (int) h.getY() + "," + (int) h.getZ() + ").");
+    }
+
 }
