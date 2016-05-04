@@ -1,6 +1,8 @@
 package twodimensionalforms;
 
 import auxiliare.*;
+import visitor.PicturePart;
+import visitor.PicturePartVisitor;
 
 /**
  * Created by Roxana on 4/25/2016.
@@ -75,4 +77,8 @@ public class Trapeze extends Polygon {
                 (int) d.getX() + "," + (int) d.getY() + ") ");
     }
 
+    @Override
+    public void accept(PicturePartVisitor visitor) {
+        visitor.visit(this);
+    }
 }

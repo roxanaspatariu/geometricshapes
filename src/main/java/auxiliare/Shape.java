@@ -1,12 +1,16 @@
 package auxiliare;
 
+import visitor.PicturePart;
+import visitor.PicturePartVisitor;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by Roxana on 4/25/2016.
  */
-public abstract class Shape {
+public abstract class Shape implements Serializable, PicturePart{
     private String name;
     private double area;
     private int dimension;

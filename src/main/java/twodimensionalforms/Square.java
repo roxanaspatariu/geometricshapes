@@ -2,6 +2,8 @@ package twodimensionalforms;
 
 import auxiliare.*;
 import exceptions.NegativeValuesException;
+import visitor.PicturePart;
+import visitor.PicturePartVisitor;
 
 /**
  * Created by Roxana on 4/25/2016.
@@ -99,4 +101,9 @@ public class Square extends Polygon {
                 + (int) c.getY() + "), d(" + (int) d.getX() + "," + (int) d.getY() + ").");
     }
 
+
+    @Override
+    public void accept(PicturePartVisitor visitor) {
+        visitor.visit(this);
+    }
 }

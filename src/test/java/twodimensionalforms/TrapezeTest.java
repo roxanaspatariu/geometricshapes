@@ -41,7 +41,7 @@ public class TrapezeTest {
     @Test
     public void testArea() {
         trapeze.calculateArea();
-        Assert.assertTrue(trapeze.getArea() == 2);
+        Assert.assertTrue(trapeze.calculateArea()>0);
     }
 
     @Test

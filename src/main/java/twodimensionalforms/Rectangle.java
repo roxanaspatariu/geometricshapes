@@ -1,6 +1,8 @@
 package twodimensionalforms;
 
 import auxiliare.*;
+import visitor.PicturePart;
+import visitor.PicturePartVisitor;
 
 /**
  * Created by v3790147 on 4/27/2016.
@@ -67,4 +69,8 @@ public class Rectangle extends Polygon {
     }
 
 
+    @Override
+    public void accept(PicturePartVisitor visitor) {
+        visitor.visit(this);
+    }
 }

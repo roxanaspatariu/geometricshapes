@@ -3,6 +3,8 @@ package twodimensionalforms;
 import auxiliare.Forms;
 import auxiliare.Point;
 import exceptions.NegativeValuesException;
+import visitor.PicturePart;
+import visitor.PicturePartVisitor;
 
 /**
  * Created by Roxana on 4/25/2016.
@@ -60,5 +62,10 @@ public class Circle extends Curves {
     public void draw() {
         System.out.println("You're drawing a " + getFont().getColor() + " " + getName() + " with a border of" +
                 " " + getFont().getBorderSize() + " cm, at (" + (int) centru.getX() + "," + (int) centru.getY() +"), with radius " + (int) radius + " cm." );
+    }
+
+    @Override
+    public void accept(PicturePartVisitor visitor) {
+        visitor.visit(this);
     }
 }

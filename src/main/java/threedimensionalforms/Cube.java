@@ -3,6 +3,7 @@ package threedimensionalforms;
 import auxiliare.Font;
 import auxiliare.Forms;
 import auxiliare.Vector;
+import visitor.PicturePartVisitor;
 
 /**
  * Created by Roxana on 4/25/2016.
@@ -68,4 +69,8 @@ public class Cube extends Polyhedron {
                 +(int) g.getX() + "," + (int) g.getY() + "," + (int) g.getZ() + "), h(" + (int) h.getX() + "," + (int) h.getY() + "," + (int) h.getZ() + ").");
     }
 
+    @Override
+    public void accept(PicturePartVisitor visitor) {
+        visitor.visit(this);
+    }
 }

@@ -19,6 +19,7 @@ public class TriangleTest {
         Point b = new Point(1, 1);
         Point c = new Point(2, 0);
         triangle = new Triangle(a, b, c);
+
     }
 
     @Test
@@ -41,6 +42,8 @@ public class TriangleTest {
     public void testArea() {
         Assert.assertTrue(triangle.calculateArea() == 1);
     }
+
+
     @Test
     public void testDimension(){
         Assert.assertEquals(2, triangle.getDimension());

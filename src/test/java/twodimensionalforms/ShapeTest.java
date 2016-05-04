@@ -13,7 +13,7 @@ public class ShapeTest {
         Shape shape = new Circle();
         shape.addSubShape(new Rectangle());
         shape.addSubShape(new Square());
-        shape.draw();
+        shape.drawSubShapes();
     }
 
     @Test

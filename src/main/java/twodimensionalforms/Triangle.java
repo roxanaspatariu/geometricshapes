@@ -2,6 +2,8 @@ package twodimensionalforms;
 
 import auxiliare.Forms;
 import auxiliare.Point;
+import visitor.PicturePart;
+import visitor.PicturePartVisitor;
 
 /**
  * Created by Roxana on 4/25/2016.
@@ -55,4 +57,8 @@ public class Triangle extends Polygon {
     }
 
 
+    @Override
+    public void accept(PicturePartVisitor visitor) {
+        visitor.visit(this);
+    }
 }

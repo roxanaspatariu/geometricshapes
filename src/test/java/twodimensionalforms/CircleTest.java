@@ -20,6 +20,10 @@ public class CircleTest {
         circle = new Circle(radius, a);
     }
 
+    @Test
+    public void constructorTest(){
+        Assert.assertNotNull(new Circle(-1, new Point(3,2)));
+    }
 
     @Test
     public void testDraw() {
