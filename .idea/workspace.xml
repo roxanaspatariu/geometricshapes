@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="947498b7-4bcf-4361-aa61-e5ba5d159f2e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/serializaze/CreateXMLDocument.java" afterPath="$PROJECT_DIR$/src/main/java/serializaze/CreateXMLDocument.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/visitor/XMLSerializationVisitor.java" afterPath="$PROJECT_DIR$/src/main/java/visitor/XMLSerializationVisitor.java" />
     </list>
     <ignored path="geometry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1178,7 +1176,7 @@
       <workItem from="1462268505697" duration="278000" />
       <workItem from="1462268801908" duration="1376000" />
       <workItem from="1462342316096" duration="16120000" />
-      <workItem from="1462428640368" duration="24010000" />
+      <workItem from="1462428640368" duration="24030000" />
     </task>
     <task id="LOCAL-00001" summary="Other changes on constructors + added composite pattern">
       <created>1461832812732</created>
@@ -1250,7 +1248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1462459053516</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added  JACKSON Serializer for Json + JAXB Serializer for XML 2">
+      <created>1462461116698</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1462461116698</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1286,7 +1291,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41784000" />
+    <option name="totallyTimeSpent" value="41804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="1" width="1856" height="1078" extended-state="0" />
@@ -1342,7 +1347,8 @@
     <MESSAGE value="Exceptions and Validations added + ShapeGenerator" />
     <MESSAGE value="Added JSON Serializer and a part of Visitor" />
     <MESSAGE value="Added  JACKSON Serializer for Json + JAXB Serializer for XML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added  JACKSON Serializer for Json + JAXB Serializer for XML" />
+    <MESSAGE value="Added  JACKSON Serializer for Json + JAXB Serializer for XML 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added  JACKSON Serializer for Json + JAXB Serializer for XML 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
