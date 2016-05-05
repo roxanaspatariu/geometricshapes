@@ -11,6 +11,7 @@ public class XMLSerializationVisitor implements PicturePartVisitor {
 
     CreateXMLDocument createXMLDocument = new CreateXMLDocument();
 
+
     @Override
     public void visit(Picture picture) {
         createXMLDocument.setElementValue(picture.getName(), picture.getArea(), picture.getDimension(), picture.getFont().getColor(), picture.getFont().getBorderSize());

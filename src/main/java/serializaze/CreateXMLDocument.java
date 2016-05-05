@@ -20,7 +20,7 @@ import java.util.StringTokenizer;
  */
 public class CreateXMLDocument {
 
-    Document document;
+    static Document document;
     Element root;
 
     public CreateXMLDocument(){
@@ -28,7 +28,7 @@ public class CreateXMLDocument {
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
             document = documentBuilder.newDocument();
-            root = document.createElement("SHAPES");
+            root = document.createElement("Shapes");
             document.appendChild(root);
         } catch (ParserConfigurationException e){
             e.printStackTrace();
@@ -37,21 +37,18 @@ public class CreateXMLDocument {
 
     public void setElementValue(String name, double area, int dimension, String colour, double borderSize ){
 
-        root.setAttribute("type", name);
-        root.appendChild(createElement("Name", name));
-        root.appendChild(createElement("Area", String.valueOf(area)));
-        root.appendChild(createElement("Dimension", String.valueOf(dimension)));
-        root.appendChild(document.createTextNode("Font"));
-        root.appendChild(createElement("Colour", colour ));
-        root.appendChild(createElement("BorderSize", String.valueOf(borderSize)));
-        create();
+        Element shape = document.createElement("Shape");
+        shape.setAttribute("type", shape.getClass().getName());
+        shape.appendChild((document.createElement("Name"))).appendChild(document.createTextNode(name));
+        shape.appendChild((document.createElement("Area"))).appendChild(document.createTextNode(String.valueOf(area)));
+        shape.appendChild((document.createElement("Dimension"))).appendChild(document.createTextNode(String.valueOf(dimension)));
+        Element font = document.createElement("Font");
+        shape.appendChild(font);
+        font.appendChild((document.createElement("Color"))).appendChild(document.createTextNode(colour));
+        font.appendChild((document.createElement("Border"))).appendChild(document.createTextNode(String.valueOf(borderSize)));
+
     }
 
-    private Element createElement(String name, String value ){
-        Element element = document.createElement(name);
-        element.appendChild(document.createTextNode(value));
-        return element;
-    }
 
     public void create(){
         try {
