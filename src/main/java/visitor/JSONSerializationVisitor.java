@@ -1,48 +1,52 @@
 package visitor;
 
-import serializaze.JacksonTest;
+import auxiliare.Shape;
+import serializaze.ObjectToJSON;
 import threedimensionalforms.Cube;
 import twodimensionalforms.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by V3790147 on 5/4/2016.
  */
-public class Visitor implements PicturePartVisitor {
+public class JSONSerializationVisitor implements PicturePartVisitor {
 
-    JacksonTest jacksonTest = new JacksonTest();
+    ObjectToJSON objectToJSON = new ObjectToJSON();
 
-   /* @Override
+    @Override
     public void visit(Picture picture) {
-        jacksonTest.writeJSON();
-    }*/
+        objectToJSON.writeJSON(picture);
+    }
 
     @Override
     public void visit(Circle circle) {
-        jacksonTest.writeJSON(circle);
+        objectToJSON.writeJSON(circle);
     }
 
     @Override
     public void visit(Square square) {
-        jacksonTest.writeJSON(square);
+        objectToJSON.writeJSON(square);
     }
 
     @Override
     public void visit(Trapeze trapeze) {
-        jacksonTest.writeJSON(trapeze);
+        objectToJSON.writeJSON(trapeze);
     }
 
     @Override
     public void visit(Triangle triangle) {
-        jacksonTest.writeJSON(triangle);
+        objectToJSON.writeJSON(triangle);
     }
 
     @Override
     public void visit(Cube cube) {
-        jacksonTest.writeJSON(cube);
+        objectToJSON.writeJSON(cube);
     }
 
     @Override
     public void visit(Rectangle rectangle) {
-        jacksonTest.writeJSON(rectangle);
+        objectToJSON.writeJSON(rectangle);
     }
 }

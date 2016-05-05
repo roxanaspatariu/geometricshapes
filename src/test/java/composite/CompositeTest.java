@@ -1,4 +1,4 @@
-package twodimensionalforms;
+package composite;
 
 import auxiliare.Point;
 import auxiliare.Shape;
@@ -7,6 +7,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import threedimensionalforms.Cube;
+import twodimensionalforms.Circle;
+import twodimensionalforms.Rectangle;
+import twodimensionalforms.Square;
 
 /**
  * Created by V3790147 on 4/28/2016.

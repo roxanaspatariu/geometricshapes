@@ -9,7 +9,7 @@ import twodimensionalforms.*;
  */
 public interface PicturePartVisitor {
 
-   // void visit(Picture picture);
+    void visit(Picture picture);
     void visit(Circle circle);
     void visit(Square square);
     void visit(Trapeze trapeze);

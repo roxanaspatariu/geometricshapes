@@ -1,8 +1,19 @@
 package auxiliare;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonSubTypes;
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
+import threedimensionalforms.Cube;
+import twodimensionalforms.Circle;
+import twodimensionalforms.Square;
+import twodimensionalforms.Trapeze;
+import twodimensionalforms.Triangle;
+import visitor.Picture;
 import visitor.PicturePart;
 import visitor.PicturePartVisitor;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,25 +21,48 @@ import java.util.List;
 /**
  * Created by Roxana on 4/25/2016.
  */
+
+@XmlRootElement(name = "Shape")
+@JsonTypeInfo(use = JsonTypeInfo.Id.NAME,
+        include = JsonTypeInfo.As.PROPERTY,
+        property = "type")
+
+@JsonSubTypes({
+        @JsonSubTypes.Type(value = Circle.class),
+        @JsonSubTypes.Type(value = Square.class),
+        @JsonSubTypes.Type(value = Trapeze.class),
+        @JsonSubTypes.Type(value = Triangle.class),
+        @JsonSubTypes.Type(value = Cube.class),
+        @JsonSubTypes.Type(value = Picture.class)
+})
 public abstract class Shape implements Serializable, PicturePart{
+
+
     private String name;
+
     private double area;
+
     private int dimension;
+
+    private Font font = new Font();
+
 
     public int getDimension() {
         return dimension;
     }
 
+    @XmlElement(name = "Dimension")
     public void setDimension(int dimension) {
         this.dimension = dimension;
     }
 
-    private Font font = new Font();
+
 
     public Font getFont() {
         return font;
     }
 
+    //@XmlElement(name = "Font")
     public void setFont(String color, int borderSize) {
         this.font = new Font(color, borderSize);
     }
@@ -37,6 +71,7 @@ public abstract class Shape implements Serializable, PicturePart{
         return name;
     }
 
+    @XmlElement( name = "Name" )
     public void setName(String name) {
         this.name = name;
     }
@@ -45,10 +80,12 @@ public abstract class Shape implements Serializable, PicturePart{
         return area;
     }
 
+    @XmlElement(name = "Area")
     public void setArea(double area) {
         this.area = area;
     }
 
+    @JsonProperty("subShapes")
     private List<Shape> shapes;
 
     public Shape() {
@@ -56,7 +93,11 @@ public abstract class Shape implements Serializable, PicturePart{
     }
 
     public Shape(Shape shape) {
-        shapes = new ArrayList<Shape>();
+        this.name = shape.getName();
+        this.area = shape.getArea();
+        this.dimension = shape.getDimension();
+        this.font = shape.getFont();
+        this.shapes = shape.getSubShapes();
     }
 
     public void addSubShape(Shape shape) {
