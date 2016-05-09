@@ -21,11 +21,11 @@ import java.util.List;
 /**
  * Created by Roxana on 5/9/2016.
  */
-public class DeserializeXMLDocument {
+public class XMLDocumentDeserializer {
 
     Document document;
 
-    public DeserializeXMLDocument(String fileName) {
+    public XMLDocumentDeserializer(String fileName) {
         try {
             File file = new File(fileName);
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();

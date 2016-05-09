@@ -2,14 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="947498b7-4bcf-4361-aa61-e5ba5d159f2e" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/serializaze/CreateXMLDocument.java" afterPath="$PROJECT_DIR$/src/main/java/serializaze/XMLDocumentSerializer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/serializaze/DeserializeXMLDocument.java" afterPath="$PROJECT_DIR$/src/main/java/serializaze/XMLDocumentDeserializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Font.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Font.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Forms.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Forms.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Point.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Point.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Shape.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Shape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Side.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Side.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/threedimensionalforms/Cube.class" afterPath="$PROJECT_DIR$/target/classes/threedimensionalforms/Cube.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/threedimensionalforms/Polyhedron.class" afterPath="$PROJECT_DIR$/target/classes/threedimensionalforms/Polyhedron.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Circle.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Circle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Curves.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Curves.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Polygon.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Polygon.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Rectangle.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Rectangle.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Square.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Square.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Trapeze.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Trapeze.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Triangle.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Triangle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/ShapeFactoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/ShapeFactoryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/SquareTest.class" afterPath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/SquareTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/TrapezeTest.class" afterPath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/TrapezeTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/visitor/XMLSerializationVisitor.java" afterPath="$PROJECT_DIR$/src/main/java/visitor/XMLSerializationVisitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/serializers/XMLSerializeDeserializeTest.java" afterPath="$PROJECT_DIR$/src/test/java/serializers/XMLSerializeDeserializeTest.java" />
     </list>
     <ignored path="geometry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,16 +39,16 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/geometry$JSONVisitorTest_testDeserialization.coverage" NAME="JSONVisitorTest.testDeserialization Coverage Results" MODIFIED="1462434960093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>twodimensionalforms.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/geometry$XMLSerializeDeserializeTest_serializeToXmlWithJAXB.coverage" NAME="XMLSerializeDeserializeTest.serializeToXmlWithJAXB Coverage Results" MODIFIED="1462457511174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>serializers.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/geometry$twodimensionalforms_in_Documents.coverage" NAME="twodimensionalforms in Documents Coverage Results" MODIFIED="1462260652774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/geometry$CircleTest.coverage" NAME="CircleTest Coverage Results" MODIFIED="1461853948426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>twodimensionalforms.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/geometry$CircleTest.coverage" NAME="CircleTest Coverage Results" MODIFIED="1461853948426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/geometry$JSONVisitorTest_testDeserialization.coverage" NAME="JSONVisitorTest.testDeserialization Coverage Results" MODIFIED="1462434960093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>twodimensionalforms.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/geometry$twodimensionalforms_in_Documents.coverage" NAME="twodimensionalforms in Documents Coverage Results" MODIFIED="1462260652774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>twodimensionalforms.*</FILTER>
     </SUITE>
   </component>
@@ -50,20 +64,8 @@
       <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TxtSerializeDeserializeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/serializers/TxtSerializeDeserializeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="223">
+              <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -72,38 +74,58 @@
       <file leaf-file-name="XMLSerializeDeserializeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/serializers/XMLSerializeDeserializeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="946">
+              <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectToXml.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/serializaze/ObjectToXml.java">
+      <file leaf-file-name="ReflectiveCallable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+            <state relative-caret-position="286">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateXMLDocument.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/serializaze/CreateXMLDocument.java">
+      <file leaf-file-name="shapesVisitor.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shapesVisitor.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="62" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectToJSON.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/serializaze/ObjectToJSON.java">
+      <file leaf-file-name="Picture.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/visitor/Picture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="-5">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLDocumentSerializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/serializaze/XMLDocumentSerializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLDocumentDeserializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/serializaze/XMLDocumentDeserializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1477">
+              <caret line="73" column="67" selection-start-line="73" selection-start-column="67" selection-end-line="73" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,24 +133,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Font.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Font.java">
+      <file leaf-file-name="XMLSerializationVisitor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/visitor/XMLSerializationVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSONSerializationVisitor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/visitor/JSONSerializationVisitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="770">
+              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
               <folding>
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,20 +150,18 @@
       <file leaf-file-name="ObjectToTxt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/serializaze/ObjectToTxt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="431">
+              <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cube.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java">
+      <file leaf-file-name="Font.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Font.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="362">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -180,10 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/CircleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/exceptions/NegativeValuesException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/auxiliare/ShapeGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory/ShapeFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/TrapezeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/auxiliare/Forms.java" />
@@ -203,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/main/java/visitor/JSONDeserializationVisitor.java" />
         <option value="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.jar!/com/fasterxml/jackson/databind/JsonMappingException.class" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/visitor/Picture.java" />
         <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/JSONVisitorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/twodimensionalforms/XmlTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/composite/CompositeTest.java" />
@@ -212,10 +218,8 @@
         <option value="$PROJECT_DIR$/src/test/java/serializers/JSONSerializeDeserializeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/serializers/XmlTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/serializaze/ObjectToXml.java" />
-        <option value="$PROJECT_DIR$/src/main/java/visitor/XMLSerializationVisitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/auxiliare/Point.java" />
         <option value="$PROJECT_DIR$/src/main/java/auxiliare/Side.java" />
-        <option value="$PROJECT_DIR$/src/main/java/serializaze/ObjectToTxt.java" />
         <option value="$PROJECT_DIR$/shapes.txt" />
         <option value="$PROJECT_DIR$/src/test/java/serializers/TxtSerializeDeserializeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Curves.java" />
@@ -225,12 +229,19 @@
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/twodimensionalforms/Square.java" />
-        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Shape.java" />
-        <option value="$PROJECT_DIR$/src/test/java/serializers/XMLSerializeDeserializeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/visitor/JSONSerializationVisitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/serializaze/ObjectToJSON.java" />
-        <option value="$PROJECT_DIR$/src/main/java/serializaze/CreateXMLDocument.java" />
+        <option value="$PROJECT_DIR$/src/test/java/serializers/XMLSerializeDeserializeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serializaze/ObjectToTxt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/visitor/Picture.java" />
         <option value="$PROJECT_DIR$/src/main/java/auxiliare/Font.java" />
+        <option value="$PROJECT_DIR$/src/main/java/auxiliare/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serializaze/CreateXMLDocument.java" />
+        <option value="$PROJECT_DIR$/shapesVisitor.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/serializaze/DeserializeXMLDocument.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serializaze/XMLDocumentBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serializaze/XMLDocumentDeserializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/visitor/XMLSerializationVisitor.java" />
       </list>
     </option>
   </component>
@@ -282,6 +293,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -296,7 +309,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Geometric shapes" />
+              <option name="myItemId" value="geometricshapes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,7 +319,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Geometric shapes" />
+              <option name="myItemId" value="geometricshapes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -321,10 +334,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twodimensionalforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -332,7 +341,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Geometric shapes" />
+              <option name="myItemId" value="geometricshapes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -358,51 +367,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Geometric shapes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="composite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geometry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Geometric shapes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geometry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Geometric shapes" />
+              <option name="myItemId" value="geometricshapes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -428,7 +393,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Geometric shapes" />
+              <option name="myItemId" value="geometricshapes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -454,7 +419,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Geometric shapes" />
+              <option name="myItemId" value="geometricshapes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -480,7 +445,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Geometric shapes" />
+              <option name="myItemId" value="geometricshapes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -506,7 +471,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Geometric shapes" />
+              <option name="myItemId" value="geometricshapes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -532,7 +497,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Geometric shapes" />
+              <option name="myItemId" value="geometricshapes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -558,7 +523,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Geometric shapes" />
+              <option name="myItemId" value="geometricshapes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -581,8 +546,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -601,7 +564,7 @@
       <recent name="twodimensionalforms" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.XMLSerializeDeserializeTest.testDeserializeXmlWithJAXB">
+  <component name="RunManager" selected="JUnit.XMLSerializeDeserializeTest.testDeserialize">
     <configuration default="false" name="XMLSerializeDeserializeTest.testDeserializeXmlWithJAXB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -616,58 +579,6 @@
       <option name="MAIN_CLASS_NAME" value="serializers.XMLSerializeDeserializeTest" />
       <option name="METHOD_NAME" value="testDeserializeXmlWithJAXB" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TxtSerializeDeserializeTest.testSerializeObjectToTxt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="serializers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Documents" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="serializers" />
-      <option name="MAIN_CLASS_NAME" value="serializers.TxtSerializeDeserializeTest" />
-      <option name="METHOD_NAME" value="testSerializeObjectToTxt" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TxtSerializeDeserializeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="serializers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Documents" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="serializers" />
-      <option name="MAIN_CLASS_NAME" value="serializers.TxtSerializeDeserializeTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -706,7 +617,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="XMLSerializeDeserializeTest.testSerializeToXmlWithJAXB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="XMLSerializeDeserializeTest.testDeserialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="serializers.*" />
@@ -718,7 +629,59 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="serializers" />
       <option name="MAIN_CLASS_NAME" value="serializers.XMLSerializeDeserializeTest" />
-      <option name="METHOD_NAME" value="testSerializeToXmlWithJAXB" />
+      <option name="METHOD_NAME" value="testDeserialize" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="XMLSerializeDeserializeTest.testSerializeToXmlWithVisitor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="serializers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Documents" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="serializers" />
+      <option name="MAIN_CLASS_NAME" value="serializers.XMLSerializeDeserializeTest" />
+      <option name="METHOD_NAME" value="testSerializeToXmlWithVisitor" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TxtSerializeDeserializeTest.testSerializeObjectToTxt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="serializers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Documents" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="serializers" />
+      <option name="MAIN_CLASS_NAME" value="serializers.TxtSerializeDeserializeTest" />
+      <option name="METHOD_NAME" value="testSerializeObjectToTxt" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1135,18 +1098,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.XMLSerializeDeserializeTest.testDeserializeXmlWithJAXB" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TxtSerializeDeserializeTest.testSerializeObjectToTxt" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TxtSerializeDeserializeTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TxtSerializeDeserializeTest.testDeserializeObjectToTxt" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.XMLSerializeDeserializeTest.testSerializeToXmlWithJAXB" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TxtSerializeDeserializeTest.testDeserializeObjectToTxt" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.XMLSerializeDeserializeTest.testDeserialize" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.XMLSerializeDeserializeTest.testSerializeToXmlWithVisitor" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TxtSerializeDeserializeTest.testSerializeObjectToTxt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.XMLSerializeDeserializeTest.testDeserializeXmlWithJAXB" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.XMLSerializeDeserializeTest.testSerializeToXmlWithJAXB" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.XMLSerializeDeserializeTest.testDeserialize" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.XMLSerializeDeserializeTest.testSerializeToXmlWithVisitor" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.TxtSerializeDeserializeTest.testDeserializeObjectToTxt" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.TxtSerializeDeserializeTest.testSerializeObjectToTxt" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TxtSerializeDeserializeTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.XMLSerializeDeserializeTest.testDeserializeXmlWithJAXB" />
       </list>
     </recent_temporary>
   </component>
@@ -1169,6 +1132,7 @@
       <workItem from="1462428640368" duration="24041000" />
       <workItem from="1462772279808" duration="1236000" />
       <workItem from="1462776146353" duration="7414000" />
+      <workItem from="1462795182453" duration="17594000" />
     </task>
     <task id="LOCAL-00001" summary="Other changes on constructors + added composite pattern">
       <created>1461832812732</created>
@@ -1282,43 +1246,50 @@
       <option name="project" value="LOCAL" />
       <updated>1462786872844</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Merge branch 'master' of https://github.com/roxanaspatariu/geometricshapes into LaptopBranch&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/serializaze/CreateXMLDocument.java&#10;#&#9;src/test/java/serializers/XMLSerializeDeserializeTest.java&#10;#&#9;target/classes/auxiliare/Shape.class&#10;#&#9;target/classes/threedimensionalforms/Cube.class&#10;#&#9;target/classes/twodimensionalforms/Circle.class&#10;#&#9;target/classes/twodimensionalforms/Rectangle.class&#10;#&#9;target/classes/twodimensionalforms/Square.class&#10;#&#9;target/classes/twodimensionalforms/Trapeze.class&#10;#&#9;target/classes/twodimensionalforms/Triangle.class&#10;">
+      <created>1462823402934</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1462823402934</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="XMLSerializeDeserializeTest_testDeserializeXmlWithJAXB - 2016.05.09 at 09h 27m 51s.xml">
-      <configuration name="XMLSerializeDeserializeTest.testDeserializeXmlWithJAXB" configurationId="JUnit" />
+    <history-entry file="XMLSerializeDeserializeTest_testDeserialize - 2016.05.09 at 21h 54m 41s.xml">
+      <configuration name="XMLSerializeDeserializeTest.testDeserialize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XMLSerializeDeserializeTest_testDeserializeXmlWithJAXB - 2016.05.09 at 09h 34m 54s.xml">
-      <configuration name="XMLSerializeDeserializeTest.testDeserializeXmlWithJAXB" configurationId="JUnit" />
+    <history-entry file="XMLSerializeDeserializeTest_testDeserialize - 2016.05.09 at 22h 28m 40s.xml">
+      <configuration name="XMLSerializeDeserializeTest.testDeserialize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XMLSerializeDeserializeTest_testDeserializeXmlWithJAXB - 2016.05.09 at 09h 36m 08s.xml">
-      <configuration name="XMLSerializeDeserializeTest.testDeserializeXmlWithJAXB" configurationId="JUnit" />
+    <history-entry file="XMLSerializeDeserializeTest_testDeserialize - 2016.05.09 at 22h 48m 11s.xml">
+      <configuration name="XMLSerializeDeserializeTest.testDeserialize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XMLSerializeDeserializeTest_testDeserializeXmlWithJAXB - 2016.05.09 at 09h 39m 59s.xml">
-      <configuration name="XMLSerializeDeserializeTest.testDeserializeXmlWithJAXB" configurationId="JUnit" />
+    <history-entry file="XMLSerializeDeserializeTest_testSerializeToXmlWithVisitor - 2016.05.09 at 22h 16m 13s.xml">
+      <configuration name="XMLSerializeDeserializeTest.testSerializeToXmlWithVisitor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XMLSerializeDeserializeTest_testDeserializeXmlWithJAXB - 2016.05.09 at 09h 40m 40s.xml">
-      <configuration name="XMLSerializeDeserializeTest.testDeserializeXmlWithJAXB" configurationId="JUnit" />
+    <history-entry file="XMLSerializeDeserializeTest_testSerializeToXmlWithVisitor - 2016.05.09 at 22h 16m 56s.xml">
+      <configuration name="XMLSerializeDeserializeTest.testSerializeToXmlWithVisitor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XMLSerializeDeserializeTest_testDeserializeXmlWithJAXB - 2016.05.09 at 09h 43m 15s.xml">
-      <configuration name="XMLSerializeDeserializeTest.testDeserializeXmlWithJAXB" configurationId="JUnit" />
+    <history-entry file="XMLSerializeDeserializeTest_testSerializeToXmlWithVisitor - 2016.05.09 at 22h 19m 39s.xml">
+      <configuration name="XMLSerializeDeserializeTest.testSerializeToXmlWithVisitor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XMLSerializeDeserializeTest_testDeserializeXmlWithJAXB - 2016.05.09 at 09h 44m 33s.xml">
-      <configuration name="XMLSerializeDeserializeTest.testDeserializeXmlWithJAXB" configurationId="JUnit" />
+    <history-entry file="XMLSerializeDeserializeTest_testSerializeToXmlWithVisitor - 2016.05.09 at 22h 19m 42s.xml">
+      <configuration name="XMLSerializeDeserializeTest.testSerializeToXmlWithVisitor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XMLSerializeDeserializeTest_testDeserializeXmlWithJAXB - 2016.05.09 at 11h 35m 02s.xml">
-      <configuration name="XMLSerializeDeserializeTest.testDeserializeXmlWithJAXB" configurationId="JUnit" />
+    <history-entry file="XMLSerializeDeserializeTest_testSerializeToXmlWithVisitor - 2016.05.09 at 22h 21m 03s.xml">
+      <configuration name="XMLSerializeDeserializeTest.testSerializeToXmlWithVisitor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XMLSerializeDeserializeTest_testSerializeToXmlWithJAXB - 2016.05.09 at 09h 42m 29s.xml">
-      <configuration name="XMLSerializeDeserializeTest.testSerializeToXmlWithJAXB" configurationId="JUnit" />
+    <history-entry file="XMLSerializeDeserializeTest_testSerializeToXmlWithVisitor - 2016.05.09 at 22h 21m 05s.xml">
+      <configuration name="XMLSerializeDeserializeTest.testSerializeToXmlWithVisitor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XMLSerializeDeserializeTest_testSerializeToXmlWithJAXB - 2016.05.09 at 09h 44m 13s.xml">
-      <configuration name="XMLSerializeDeserializeTest.testSerializeToXmlWithJAXB" configurationId="JUnit" />
+    <history-entry file="XMLSerializeDeserializeTest_testSerializeToXmlWithVisitor - 2016.05.09 at 22h 48m 08s.xml">
+      <configuration name="XMLSerializeDeserializeTest.testSerializeToXmlWithVisitor" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50465000" />
+    <option name="totallyTimeSpent" value="68059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="1" width="1856" height="1078" extended-state="0" />
@@ -1326,23 +1297,23 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920536" sideWeight="0.4847826" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286026" sideWeight="0.4847826" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33436534" sideWeight="0.53695655" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33932346" sideWeight="0.46304348" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34497815" sideWeight="0.46304348" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2037862" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2037037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38794926" sideWeight="0.47826087" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3875546" sideWeight="0.47826087" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1377,7 +1348,8 @@
     <MESSAGE value="Added  JACKSON Serializer for Json + JAXB Serializer for XML 2" />
     <MESSAGE value="finished XML Creator" />
     <MESSAGE value="Fixed unmarshall method from ObjectToXml Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed unmarshall method from ObjectToXml Class" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/roxanaspatariu/geometricshapes into LaptopBranch&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/serializaze/CreateXMLDocument.java&#10;#&#9;src/test/java/serializers/XMLSerializeDeserializeTest.java&#10;#&#9;target/classes/auxiliare/Shape.class&#10;#&#9;target/classes/threedimensionalforms/Cube.class&#10;#&#9;target/classes/twodimensionalforms/Circle.class&#10;#&#9;target/classes/twodimensionalforms/Rectangle.class&#10;#&#9;target/classes/twodimensionalforms/Square.class&#10;#&#9;target/classes/twodimensionalforms/Trapeze.class&#10;#&#9;target/classes/twodimensionalforms/Triangle.class&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/roxanaspatariu/geometricshapes into LaptopBranch&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/serializaze/CreateXMLDocument.java&#10;#&#9;src/test/java/serializers/XMLSerializeDeserializeTest.java&#10;#&#9;target/classes/auxiliare/Shape.class&#10;#&#9;target/classes/threedimensionalforms/Cube.class&#10;#&#9;target/classes/twodimensionalforms/Circle.class&#10;#&#9;target/classes/twodimensionalforms/Rectangle.class&#10;#&#9;target/classes/twodimensionalforms/Square.class&#10;#&#9;target/classes/twodimensionalforms/Trapeze.class&#10;#&#9;target/classes/twodimensionalforms/Triangle.class&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1400,6 +1372,12 @@
           <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/serializers/XMLSerializeDeserializeTest.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeTest.java</url>
           <line>19</line>
@@ -1419,13 +1397,16 @@
           <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="74" />
+      <option name="time" value="78" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="new Visitor()" />
         <watch expression="this" />
         <watch expression="document" />
+        <watch expression="element" />
+        <watch expression="shape" />
+        <watch expression="shape = {Picture@1177} " />
       </configuration>
     </watches-manager>
   </component>
@@ -1434,64 +1415,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/TrapezeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
-          <folding>
-            <element signature="e#931#932#0" expanded="false" />
-            <element signature="e#993#994#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/SquareTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
-          <folding>
-            <element signature="e#836#837#0" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/ShapeGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/twodimensionalforms/CircleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#451#452#0" expanded="false" />
-            <element signature="e#519#520#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/serializaze/PdfSerializaze.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Forms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1518,31 +1445,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="356" column="0" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="512" column="0" selection-start-line="512" selection-start-column="0" selection-end-line="512" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.jar!/com/fasterxml/jackson/databind/JsonMappingException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2965">
-          <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/ClassLoader.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.jar!/com/fasterxml/jackson/databind/ObjectMapper.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.jar!/com/fasterxml/jackson/databind/JsonMappingException.class" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1559,28 +1467,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/xml/parsers/DocumentBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/jre/lib/plugin.jar!/sun/plugin/dom/core/Document.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="74" column="27" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapes.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/xml/parsers/DocumentBuilder.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/jre/lib/plugin.jar!/sun/plugin/dom/core/Document.class" />
+    <entry file="file://$PROJECT_DIR$/shapes.json" />
     <entry file="file://$PROJECT_DIR$/src/test/java/serializers/XmlTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/composite/CompositeTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1596,36 +1485,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/Picture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapesVisitor.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/XMLSerializationVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#366#367#0" expanded="false" />
-            <element signature="e#424#425#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1655,14 +1514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shapes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Curves.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1676,18 +1527,6 @@
         <state relative-caret-position="204">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1877#1878#0" expanded="false" />
-            <element signature="e#1912#1913#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1723,27 +1562,17 @@
         <state relative-caret-position="119">
           <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
           <folding>
-            <element signature="e#2643#2644#0" expanded="true" />
-            <element signature="e#2678#2679#0" expanded="true" />
+            <element signature="e#2643#2644#0" expanded="false" />
+            <element signature="e#2678#2679#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/threedimensionalforms/Cube.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="154">
           <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1751,7 +1580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1763,28 +1591,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/serializers/XMLSerializeDeserializeTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.7.4/jackson-databind-2.7.4.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="102">
+          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/serializers/TxtSerializeDeserializeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/JSONSerializationVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/serializaze/ObjectToTxt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="66">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#515#516#0" expanded="false" />
+            <element signature="e#561#562#0" expanded="false" />
+            <element signature="e#615#616#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#717#718#0" expanded="false" />
+            <element signature="e#764#765#0" expanded="false" />
+            <element signature="e#822#823#0" expanded="false" />
+            <element signature="e#870#871#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#964#965#0" expanded="false" />
+            <element signature="e#1024#1025#0" expanded="false" />
+            <element signature="e#1073#1074#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serializaze/ObjectToJSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#424#425#0" expanded="false" />
+            <element signature="e#453#454#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1797,48 +1638,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.7.4/jackson-databind-2.7.4.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/org/w3c/dom/Element.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+        <state relative-caret-position="191">
+          <caret line="189" column="20" selection-start-line="189" selection-start-column="20" selection-end-line="189" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/JSONSerializationVisitor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/twodimensionalforms/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="-176">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/org/w3c/dom/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="262" column="20" selection-start-line="262" selection-start-column="20" selection-end-line="262" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serializaze/ObjectToTxt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="1669" column="0" selection-start-line="1669" selection-start-column="0" selection-end-line="1669" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/Picture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/serializers/TxtSerializeDeserializeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="false" />
+            <element signature="e#649#650#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/serializaze/ObjectToJSON.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="332" column="0" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapesVisitor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="62" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/serializers/XMLSerializeDeserializeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serializaze/XMLDocumentDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1477">
+          <caret line="73" column="67" selection-start-line="73" selection-start-column="67" selection-end-line="73" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/serializaze/CreateXMLDocument.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/serializaze/XMLDocumentSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="1785">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/auxiliare/Font.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/XMLSerializationVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="770">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

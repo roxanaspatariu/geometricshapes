@@ -1,6 +1,6 @@
 package visitor;
 
-import serializaze.CreateXMLDocument;
+import serializaze.XMLDocumentSerializer;
 import threedimensionalforms.Cube;
 import twodimensionalforms.*;
 
@@ -9,42 +9,42 @@ import twodimensionalforms.*;
  */
 public class XMLSerializationVisitor implements PicturePartVisitor {
 
-    CreateXMLDocument createXMLDocument = CreateXMLDocument.getInstance();
+    XMLDocumentSerializer serializer = XMLDocumentSerializer.getInstance();
 
 
     @Override
     public void visit(Picture picture) {
-        createXMLDocument.setElementValue(picture);
+        serializer.setElementValue(picture);
     }
 
     @Override
     public void visit(Circle circle) {
-        createXMLDocument.setElementValue(circle);
+        serializer.setElementValue(circle);
     }
 
     @Override
     public void visit(Square square) {
-        createXMLDocument.setElementValue(square);
+        serializer.setElementValue(square);
     }
 
     @Override
     public void visit(Trapeze trapeze) {
-        createXMLDocument.setElementValue(trapeze);
+        serializer.setElementValue(trapeze);
     }
 
     @Override
     public void visit(Triangle triangle) {
-        createXMLDocument.setElementValue(triangle);
+        serializer.setElementValue(triangle);
     }
 
     @Override
     public void visit(Cube cube) {
-        createXMLDocument.setElementValue(cube);
+        serializer.setElementValue(cube);
     }
 
     @Override
     public void visit(Rectangle rectangle) {
-        createXMLDocument.setElementValue(rectangle);
+        serializer.setElementValue(rectangle);
     }
 
 }

@@ -19,17 +19,17 @@ import java.io.File;
 /**
  * Created by V3790147 on 5/5/2016.
  */
-public class CreateXMLDocument {
+public class XMLDocumentSerializer {
 
     Document document;
     Element root;
-    private static CreateXMLDocument createXMLDocument = new CreateXMLDocument();
+    private static XMLDocumentSerializer XMLDocumentSerializer = new XMLDocumentSerializer();
 
-    public static CreateXMLDocument getInstance(){
-            return createXMLDocument;
+    public static XMLDocumentSerializer getInstance(){
+            return XMLDocumentSerializer;
     }
 
-    private CreateXMLDocument(){
+    private XMLDocumentSerializer(){
         try {
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();

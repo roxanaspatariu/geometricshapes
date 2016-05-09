@@ -4,8 +4,8 @@ import auxiliare.Shape;
 import auxiliare.ShapeGenerator;
 import org.junit.Assert;
 import org.junit.Test;
-import serializaze.CreateXMLDocument;
-import serializaze.DeserializeXMLDocument;
+import serializaze.XMLDocumentSerializer;
+import serializaze.XMLDocumentDeserializer;
 import serializaze.ObjectToXml;
 import threedimensionalforms.Cube;
 import visitor.Picture;
@@ -52,13 +52,13 @@ public class XMLSerializeDeserializeTest {
 
     @Test
     public void testDeserialize(){
-        DeserializeXMLDocument deserializeXMLDocument = new DeserializeXMLDocument("shapesVisitor.xml");
-        Shape shape = deserializeXMLDocument.deserialize();
+        XMLDocumentDeserializer XMLDocumentDeserializer = new XMLDocumentDeserializer("shapesVisitor.xml");
+        Shape shape = XMLDocumentDeserializer.deserialize();
         Assert.assertNotNull(shape);
     }
 
     @Test
     public void checkSingleton(){
-        Assert.assertEquals(CreateXMLDocument.getInstance(), CreateXMLDocument.getInstance());
+        Assert.assertEquals(XMLDocumentSerializer.getInstance(), XMLDocumentSerializer.getInstance());
     }
 }
