@@ -80,7 +80,6 @@ public class CreateXMLDocument {
         shapeElement.setAttribute("type", shape.getClass().getName());
         root.appendChild(shapeElement);
         setSimpleNodeElement(shape, shapeElement);
-
         create();
     }
 
