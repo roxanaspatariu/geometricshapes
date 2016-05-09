@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="947498b7-4bcf-4361-aa61-e5ba5d159f2e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Forms.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Forms.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Shape.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Shape.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/threedimensionalforms/Cube.class" afterPath="$PROJECT_DIR$/target/classes/threedimensionalforms/Cube.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Circle.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Circle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Rectangle.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Rectangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Square.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Square.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Trapeze.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Trapeze.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Triangle.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Triangle.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="geometry.iws" />
@@ -1119,7 +1111,7 @@
       <workItem from="1462428640368" duration="24030000" />
       <workItem from="1462525726773" duration="210000" />
       <workItem from="1462525946001" duration="13329000" />
-      <workItem from="1462772390456" duration="156000" />
+      <workItem from="1462772390456" duration="218000" />
     </task>
     <task id="LOCAL-00001" summary="Other changes on constructors + added composite pattern">
       <created>1461832812732</created>
@@ -1205,7 +1197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1462772477214</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="finished XML Creator">
+      <created>1462772553988</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1462772553988</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1241,7 +1240,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55499000" />
+    <option name="totallyTimeSpent" value="55561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="1" width="1856" height="1078" extended-state="0" />
