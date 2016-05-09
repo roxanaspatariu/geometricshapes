@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="947498b7-4bcf-4361-aa61-e5ba5d159f2e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_4.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Forms.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Forms.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Shape.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Shape.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/threedimensionalforms/Cube.class" afterPath="$PROJECT_DIR$/target/classes/threedimensionalforms/Cube.class" />
@@ -13,15 +10,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Square.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Square.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Trapeze.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Trapeze.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Triangle.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Triangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents.iml" afterPath="$PROJECT_DIR$/Documents.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/auxiliare/Shape.java" afterPath="$PROJECT_DIR$/src/main/java/auxiliare/Shape.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/serializaze/CreateXMLDocument.java" afterPath="$PROJECT_DIR$/src/main/java/serializaze/CreateXMLDocument.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/serializaze/ObjectToXml.java" afterPath="$PROJECT_DIR$/src/main/java/serializaze/ObjectToXml.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/visitor/XMLSerializationVisitor.java" afterPath="$PROJECT_DIR$/src/main/java/visitor/XMLSerializationVisitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/serializers/XMLSerializeDeserializeTest.java" afterPath="$PROJECT_DIR$/src/test/java/serializers/XMLSerializeDeserializeTest.java" />
     </list>
     <ignored path="geometry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -550,7 +539,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25862068" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -1130,7 +1119,7 @@
       <workItem from="1462428640368" duration="24030000" />
       <workItem from="1462525726773" duration="210000" />
       <workItem from="1462525946001" duration="13329000" />
-      <workItem from="1462772390456" duration="23000" />
+      <workItem from="1462772390456" duration="156000" />
     </task>
     <task id="LOCAL-00001" summary="Other changes on constructors + added composite pattern">
       <created>1461832812732</created>
@@ -1209,7 +1198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1462461116698</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="finished XML Creator">
+      <created>1462772477214</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1462772477214</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1245,7 +1241,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55366000" />
+    <option name="totallyTimeSpent" value="55499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="1" width="1856" height="1078" extended-state="0" />
@@ -1302,7 +1298,8 @@
     <MESSAGE value="Added JSON Serializer and a part of Visitor" />
     <MESSAGE value="Added  JACKSON Serializer for Json + JAXB Serializer for XML" />
     <MESSAGE value="Added  JACKSON Serializer for Json + JAXB Serializer for XML 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added  JACKSON Serializer for Json + JAXB Serializer for XML 2" />
+    <MESSAGE value="finished XML Creator" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished XML Creator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1452,6 +1449,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1677,6 +1675,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="408" column="17" selection-start-line="408" selection-start-column="17" selection-end-line="408" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
