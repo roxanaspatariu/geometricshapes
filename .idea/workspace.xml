@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="947498b7-4bcf-4361-aa61-e5ba5d159f2e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/serializaze/CreateXMLDocument.java" afterPath="$PROJECT_DIR$/src/main/java/serializaze/XMLDocumentSerializer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/serializaze/DeserializeXMLDocument.java" afterPath="$PROJECT_DIR$/src/main/java/serializaze/XMLDocumentDeserializer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Font.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Font.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Forms.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Forms.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/auxiliare/Point.class" afterPath="$PROJECT_DIR$/target/classes/auxiliare/Point.class" />
@@ -18,12 +16,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Square.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Square.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Trapeze.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Trapeze.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/twodimensionalforms/Triangle.class" afterPath="$PROJECT_DIR$/target/classes/twodimensionalforms/Triangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/ShapeFactoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/ShapeFactoryTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/SquareTest.class" afterPath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/SquareTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/TrapezeTest.class" afterPath="$PROJECT_DIR$/target/test-classes/twodimensionalforms/TrapezeTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/visitor/XMLSerializationVisitor.java" afterPath="$PROJECT_DIR$/src/main/java/visitor/XMLSerializationVisitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/serializers/XMLSerializeDeserializeTest.java" afterPath="$PROJECT_DIR$/src/test/java/serializers/XMLSerializeDeserializeTest.java" />
     </list>
     <ignored path="geometry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1132,7 +1125,7 @@
       <workItem from="1462428640368" duration="24041000" />
       <workItem from="1462772279808" duration="1236000" />
       <workItem from="1462776146353" duration="7414000" />
-      <workItem from="1462795182453" duration="17594000" />
+      <workItem from="1462795182453" duration="17607000" />
     </task>
     <task id="LOCAL-00001" summary="Other changes on constructors + added composite pattern">
       <created>1461832812732</created>
@@ -1253,7 +1246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1462823402934</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Merge branch 'master' of https://github.com/roxanaspatariu/geometricshapes into LaptopBranch&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/serializaze/CreateXMLDocument.java&#10;#&#9;src/test/java/serializers/XMLSerializeDeserializeTest.java&#10;#&#9;target/classes/auxiliare/Shape.class&#10;#&#9;target/classes/threedimensionalforms/Cube.class&#10;#&#9;target/classes/twodimensionalforms/Circle.class&#10;#&#9;target/classes/twodimensionalforms/Rectangle.class&#10;#&#9;target/classes/twodimensionalforms/Square.class&#10;#&#9;target/classes/twodimensionalforms/Trapeze.class&#10;#&#9;target/classes/twodimensionalforms/Triangle.class&#10;">
+      <created>1462823752673</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1462823752673</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1289,7 +1289,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68059000" />
+    <option name="totallyTimeSpent" value="68072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="1" width="1856" height="1078" extended-state="0" />
