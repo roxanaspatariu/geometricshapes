@@ -1,9 +1,11 @@
 package auxiliare;
 
+import java.io.Serializable;
+
 /**
  * Created by Roxana on 4/25/2016.
  */
-public class Side {
+public class Side implements Serializable {
     private Point a;
     private Point b;
     private double size;

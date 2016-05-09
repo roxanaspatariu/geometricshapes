@@ -4,9 +4,12 @@ import auxiliare.*;
 import visitor.PicturePart;
 import visitor.PicturePartVisitor;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * Created by v3790147 on 4/27/2016.
  */
+@XmlRootElement
 public class Rectangle extends Polygon {
 
     private Side smallSide;

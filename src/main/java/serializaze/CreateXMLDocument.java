@@ -44,6 +44,10 @@ public class CreateXMLDocument {
 
     public Element setSimpleNodeElement(Shape shape, Element shapeElement){
 
+        Element typeElement = document.createElement("Type");
+        typeElement.appendChild(document.createTextNode(shape.getClass().getName()));
+        shapeElement.appendChild(typeElement);
+
         Element nameElement = document.createElement("Name");
         nameElement.appendChild(document.createTextNode(shape.getName()));
         shapeElement.appendChild(nameElement);
@@ -69,7 +73,7 @@ public class CreateXMLDocument {
 
         Element subShapesElement = document.createElement("Subshapes");
         for(Shape shape1 :shape.getSubShapes()) {
-            subShapesElement.appendChild(setSimpleNodeElement(shape1, shapeElement));
+            shapeElement.appendChild(setSimpleNodeElement(shape1, subShapesElement));
         }
         return shapeElement;
     }
@@ -77,10 +81,8 @@ public class CreateXMLDocument {
     public void setElementValue(Shape shape){
 
         Element shapeElement = document.createElement("Shape");
-        shapeElement.setAttribute("type", shape.getClass().getName());
         root.appendChild(shapeElement);
         setSimpleNodeElement(shape, shapeElement);
-
         create();
     }
 

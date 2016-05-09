@@ -3,12 +3,14 @@ package twodimensionalforms;
 import auxiliare.Forms;
 import auxiliare.Point;
 import exceptions.NegativeValuesException;
-import visitor.PicturePart;
 import visitor.PicturePartVisitor;
+
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * Created by Roxana on 4/25/2016.
  */
+@XmlRootElement
 public class Circle extends Curves {
     private double lungime;
     private Point centru;

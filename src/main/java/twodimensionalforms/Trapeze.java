@@ -4,9 +4,12 @@ import auxiliare.*;
 import visitor.PicturePart;
 import visitor.PicturePartVisitor;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * Created by Roxana on 4/25/2016.
  */
+@XmlRootElement
 public class Trapeze extends Polygon {
 
     private Side smallBase;

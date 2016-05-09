@@ -10,10 +10,10 @@ import twodimensionalforms.Trapeze;
 import twodimensionalforms.Triangle;
 import visitor.Picture;
 import visitor.PicturePart;
-import visitor.PicturePartVisitor;
 
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlSeeAlso;
+import javax.xml.bind.annotation.XmlType;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +22,10 @@ import java.util.List;
  * Created by Roxana on 4/25/2016.
  */
 
-@XmlRootElement(name = "Shape")
+
+
+@XmlType
+@XmlSeeAlso({Circle.class, Square.class , Trapeze.class, Triangle.class,Cube.class,Picture.class})
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME,
         include = JsonTypeInfo.As.PROPERTY,
         property = "type")
@@ -46,7 +49,7 @@ public abstract class Shape implements Serializable, PicturePart{
 
     private Font font = new Font();
 
-
+    @XmlElement
     public int getDimension() {
         return dimension;
     }
@@ -61,10 +64,10 @@ public abstract class Shape implements Serializable, PicturePart{
         return font;
     }
 
-    public void setFont(String color, int borderSize) {
+    public void setFont(String color, double borderSize) {
         this.font = new Font(color, borderSize);
     }
-
+    @XmlElement
     public String getName() {
         return name;
     }
@@ -72,7 +75,7 @@ public abstract class Shape implements Serializable, PicturePart{
     public void setName(String name) {
         this.name = name;
     }
-
+    @XmlElement
     public double getArea() {
         return area;
     }
@@ -112,7 +115,7 @@ public abstract class Shape implements Serializable, PicturePart{
         return shapes;
     }
 
-    public void setSubShapes(List<Shape> shapes) {
+    public void setSubShapes(List shapes) {
         this.shapes.addAll(shapes);
     }
 

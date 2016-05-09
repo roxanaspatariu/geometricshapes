@@ -4,13 +4,14 @@ import auxiliare.Shape;
 import auxiliare.ShapeGenerator;
 import org.junit.Assert;
 import org.junit.Test;
-import org.w3c.dom.Document;
 import serializaze.CreateXMLDocument;
-import serializaze.ObjectToJSON;
+import serializaze.DeserializeXMLDocument;
 import serializaze.ObjectToXml;
-import twodimensionalforms.Circle;
-import twodimensionalforms.Triangle;
-import visitor.*;
+import threedimensionalforms.Cube;
+import visitor.Picture;
+import visitor.PicturePart;
+import visitor.PicturePartVisitor;
+import visitor.XMLSerializationVisitor;
 
 import java.util.List;
 
@@ -26,14 +27,14 @@ public class XMLSerializeDeserializeTest {
         List<Shape> shapeList = shapeGenerator.generateListShape();
         Picture picture = new Picture(shape, shapeList);
         ObjectToXml objectToXml = new ObjectToXml();
-        objectToXml.marshall(picture, "shapesJAXB.xml");
+       // objectToXml.marshall(picture, "shapesJAXB.xml");
         objectToXml.marshall(shape, "shapeJAXB.xml");
     }
 
     @Test
     public void testDeserializeXmlWithJAXB(){
         ObjectToXml objectToXml = new ObjectToXml();
-        Shape shape = objectToXml.unmarshall("shapeJAXB.xml");
+        Cube shape = (Cube) objectToXml.unmarshall("shapeJAXB.xml");
         Assert.assertNotNull(shape);
     }
 
@@ -47,6 +48,13 @@ public class XMLSerializeDeserializeTest {
         PicturePartVisitor visitor = new XMLSerializationVisitor();
         picture.accept(visitor);
 
+    }
+
+    @Test
+    public void testDeserialize(){
+        DeserializeXMLDocument deserializeXMLDocument = new DeserializeXMLDocument("shapesVisitor.xml");
+        Shape shape = deserializeXMLDocument.deserialize();
+        Assert.assertNotNull(shape);
     }
 
     @Test

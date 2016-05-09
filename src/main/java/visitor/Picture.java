@@ -1,16 +1,14 @@
 package visitor;
 
-import auxiliare.Forms;
 import auxiliare.Shape;
-import auxiliare.ShapeGenerator;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by V3790147 on 5/4/2016.
  */
 public class Picture extends Shape implements PicturePart {
+
     public Picture() {
 
     }

@@ -5,9 +5,13 @@ import exceptions.NegativeValuesException;
 import visitor.PicturePart;
 import visitor.PicturePartVisitor;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * Created by Roxana on 4/25/2016.
  */
+@XmlRootElement
 public class Square extends Polygon {
     private Side side;
     private Point a;
