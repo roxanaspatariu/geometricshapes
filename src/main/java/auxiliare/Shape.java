@@ -51,7 +51,6 @@ public abstract class Shape implements Serializable, PicturePart{
         return dimension;
     }
 
-    @XmlElement(name = "Dimension")
     public void setDimension(int dimension) {
         this.dimension = dimension;
     }
@@ -62,7 +61,6 @@ public abstract class Shape implements Serializable, PicturePart{
         return font;
     }
 
-    //@XmlElement(name = "Font")
     public void setFont(String color, int borderSize) {
         this.font = new Font(color, borderSize);
     }
@@ -71,7 +69,6 @@ public abstract class Shape implements Serializable, PicturePart{
         return name;
     }
 
-    @XmlElement( name = "Name" )
     public void setName(String name) {
         this.name = name;
     }
@@ -80,7 +77,6 @@ public abstract class Shape implements Serializable, PicturePart{
         return area;
     }
 
-    @XmlElement(name = "Area")
     public void setArea(double area) {
         this.area = area;
     }

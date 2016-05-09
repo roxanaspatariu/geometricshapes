@@ -8,22 +8,28 @@ import org.w3c.dom.Element;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.*;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
-import java.util.List;
-import java.util.StringTokenizer;
 
 /**
  * Created by V3790147 on 5/5/2016.
  */
 public class CreateXMLDocument {
 
-    static Document document;
+    Document document;
     Element root;
+    private static CreateXMLDocument createXMLDocument = new CreateXMLDocument();
 
-    public CreateXMLDocument(){
+    public static CreateXMLDocument getInstance(){
+            return createXMLDocument;
+    }
+
+    private CreateXMLDocument(){
         try {
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
@@ -35,18 +41,47 @@ public class CreateXMLDocument {
         }
     }
 
-    public void setElementValue(String name, double area, int dimension, String colour, double borderSize ){
 
-        Element shape = document.createElement("Shape");
-        shape.setAttribute("type", shape.getClass().getName());
-        shape.appendChild((document.createElement("Name"))).appendChild(document.createTextNode(name));
-        shape.appendChild((document.createElement("Area"))).appendChild(document.createTextNode(String.valueOf(area)));
-        shape.appendChild((document.createElement("Dimension"))).appendChild(document.createTextNode(String.valueOf(dimension)));
+    public Element setSimpleNodeElement(Shape shape, Element shapeElement){
+
+        Element nameElement = document.createElement("Name");
+        nameElement.appendChild(document.createTextNode(shape.getName()));
+        shapeElement.appendChild(nameElement);
+
+        Element areaElement = document.createElement("Area");
+        areaElement.appendChild(document.createTextNode(String.valueOf(shape.getArea())));
+        shapeElement.appendChild(areaElement);
+
+        Element dimensionElement = document.createElement("Dimension");
+        dimensionElement.appendChild(document.createTextNode(String.valueOf(shape.getDimension())));
+        shapeElement.appendChild(dimensionElement);
+
         Element font = document.createElement("Font");
-        shape.appendChild(font);
-        font.appendChild((document.createElement("Color"))).appendChild(document.createTextNode(colour));
-        font.appendChild((document.createElement("Border"))).appendChild(document.createTextNode(String.valueOf(borderSize)));
+        shapeElement.appendChild(font);
 
+        Element colorElement = document.createElement("Color");
+        colorElement.appendChild(document.createTextNode(shape.getFont().getColor()));
+        font.appendChild(colorElement);
+
+        Element borderElement = document.createElement("Border");
+        borderElement.appendChild(document.createTextNode(String.valueOf(shape.getFont().getBorderSize())));
+        font.appendChild(borderElement);
+
+        Element subShapesElement = document.createElement("Subshapes");
+        for(Shape shape1 :shape.getSubShapes()) {
+            subShapesElement.appendChild(setSimpleNodeElement(shape1, shapeElement));
+        }
+        return shapeElement;
+    }
+
+    public void setElementValue(Shape shape){
+
+        Element shapeElement = document.createElement("Shape");
+        shapeElement.setAttribute("type", shape.getClass().getName());
+        root.appendChild(shapeElement);
+        setSimpleNodeElement(shape, shapeElement);
+
+        create();
     }
 
 
@@ -63,5 +98,6 @@ public class CreateXMLDocument {
             t.printStackTrace();
         }
     }
+
 
 }
