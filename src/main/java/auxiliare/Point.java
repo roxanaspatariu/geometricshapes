@@ -1,9 +1,11 @@
 package auxiliare;
 
+import java.io.Serializable;
+
 /**
  * Created by Roxana on 4/25/2016.
  */
-public class Point  {
+public class Point implements Serializable {
 
     private double x;
     private double y;

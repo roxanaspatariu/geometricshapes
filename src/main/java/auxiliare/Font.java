@@ -2,10 +2,12 @@ package auxiliare;
 
 import exceptions.NegativeValuesException;
 
+import java.io.Serializable;
+
 /**
  * Created by Roxana on 4/25/2016.
  */
-public class Font {
+public class Font implements Serializable {
     private String colour;
     private double borderSize;
 

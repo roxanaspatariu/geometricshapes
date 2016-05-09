@@ -5,9 +5,12 @@ import auxiliare.Point;
 import visitor.PicturePart;
 import visitor.PicturePartVisitor;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * Created by Roxana on 4/25/2016.
  */
+@XmlRootElement
 public class Triangle extends Polygon {
 
     private Point a;

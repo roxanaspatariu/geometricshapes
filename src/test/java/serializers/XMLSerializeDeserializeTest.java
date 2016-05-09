@@ -8,6 +8,7 @@ import org.w3c.dom.Document;
 import serializaze.CreateXMLDocument;
 import serializaze.ObjectToJSON;
 import serializaze.ObjectToXml;
+import threedimensionalforms.Cube;
 import twodimensionalforms.Circle;
 import twodimensionalforms.Triangle;
 import visitor.*;
@@ -26,14 +27,14 @@ public class XMLSerializeDeserializeTest {
         List<Shape> shapeList = shapeGenerator.generateListShape();
         Picture picture = new Picture(shape, shapeList);
         ObjectToXml objectToXml = new ObjectToXml();
-        objectToXml.marshall(picture, "shapesJAXB.xml");
+       // objectToXml.marshall(picture, "shapesJAXB.xml");
         objectToXml.marshall(shape, "shapeJAXB.xml");
     }
 
     @Test
     public void testDeserializeXmlWithJAXB(){
         ObjectToXml objectToXml = new ObjectToXml();
-        Shape shape = objectToXml.unmarshall("shapeJAXB.xml");
+        Cube shape = (Cube) objectToXml.unmarshall("shapeJAXB.xml");
         Assert.assertNotNull(shape);
     }
 
