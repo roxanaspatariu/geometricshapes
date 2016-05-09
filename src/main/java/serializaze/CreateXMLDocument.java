@@ -69,7 +69,7 @@ public class CreateXMLDocument {
 
         Element subShapesElement = document.createElement("Subshapes");
         for(Shape shape1 :shape.getSubShapes()) {
-            subShapesElement.appendChild(setSimpleNodeElement(shape1, shapeElement));
+            shapeElement.appendChild(setSimpleNodeElement(shape1, subShapesElement));
         }
         return shapeElement;
     }
